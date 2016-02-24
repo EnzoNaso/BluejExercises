@@ -1,0 +1,23 @@
+#BlueJ class context
+comment0.params=recheneinheit
+comment0.target=GrafischeSchnittstelle(Recheneinheit)
+comment0.text=\r\n\ Erzeuge\ eine\ grafische\ Benutzungsschnittstelle\ f\u00FCr\ \r\n\ eine\ Recheneinheit.\r\n\ @param\ recheneinheit\ die\ Recheneinheit\r\n
+comment1.params=sichtbar
+comment1.target=void\ setzeSichtbarkeit(boolean)
+comment1.text=\r\n\ Setze\ die\ Sichtbarkeit\ dieser\ grafischen\ Schnittstelle.\r\n\ @param\ sichtbar\r\n\ \ \ \ \ \ \ \ true,\ wenn\ die\ Schnittstelle\ sichtbar\ sein\ soll,\ false\ sonst.\r\n\ \r\n
+comment2.params=
+comment2.target=void\ fensterAufbauen()
+comment2.text=\r\n\ Baue\ das\ Fenster\ f\u00FCr\ diese\ grafische\ Oberfl\u00E4che\ auf.\r\n
+comment3.params=panel\ tastentext
+comment3.target=void\ tasteHinzufuegen(java.awt.Container,\ java.lang.String)
+comment3.text=\r\n\ F\u00FCge\ dem\ Tastenfeld\ eine\ Taste\ hinzu.\r\n\ @param\ panel\ der\ Panel,\ der\ die\ Taste\ aufnehmen\ soll\r\n\ @param\ tastentext\ der\ Text\ f\u00FCr\ die\ Taste\r\n
+comment4.params=event
+comment4.target=void\ actionPerformed(java.awt.event.ActionEvent)
+comment4.text=\r\n\ Eine\ Aktion\ an\ der\ Schnittstelle\ wurde\ ausgef\u00FChrt.\r\n\ Finde\ heraus,\ welche\ es\ war\ und\ behandle\ sie.\r\n\ @param\ event\ die\ Beschreibung\ der\ Aktion\r\n
+comment5.params=
+comment5.target=void\ auffrischen()
+comment5.text=\r\n\ Frische\ die\ grafische\ Anzeige\ mit\ dem\ aktuellen\ Wert\ der\r\n\ Recheneinheit\ auf.\r\n
+comment6.params=
+comment6.target=void\ infoZeigen()
+comment6.text=\r\n\ Wechsle\ die\ Informationsausgabe\ in\ der\ Statuszeile\ zwischen\r\n\ der\ Autoren-\ und\ der\ Versionsinformation.\r\n
+numComments=7

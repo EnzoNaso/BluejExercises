@@ -1,0 +1,17 @@
+#BlueJ class context
+comment0.params=
+comment0.target=ZeichnenDemo()
+comment0.text=\n\ Die\ Demo\ vorbereiten.\ Es\ wird\ ein\ frischer\ Canvas\ erzeugt\ und\ sichtbar\ gemacht.\n
+comment1.params=
+comment1.target=void\ zeichneQuadrat()
+comment1.text=\n\ Zeichne\ ein\ Quadrat\ auf\ den\ Bildschirm.\n
+comment2.params=
+comment2.target=void\ zeichneRad()
+comment2.text=\n\ Zeichne\ ein\ Rad\ aus\ mehreren\ Quadraten.\n
+comment3.params=
+comment3.target=void\ buntesGekritzel()
+comment3.text=\n\ Zeichne\ einige\ zuf\u00E4llige\ Schn\u00F6rkel\ in\ zuf\u00E4lligen\ Farben.\n
+comment4.params=
+comment4.target=void\ leeren()
+comment4.text=\n\ Leere\ die\ Zeichenfl\u00E4che.\n
+numComments=5

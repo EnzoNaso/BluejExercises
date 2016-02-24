@@ -1,0 +1,26 @@
+#BlueJ class context
+comment0.params=buch
+comment0.target=AdressbuchDateiverwalter(Adressbuch)
+comment0.text=\r\n\ Konstruktor\ f\u00FCr\ Objekte\ der\ Klasse\ AdressbuchDateiverwalter.\r\n\ @param\ buch\ das\ Adressbuch,\ das\ benutzt\ werden\ soll.\r\n
+comment1.params=praefix
+comment1.target=void\ speichereSuchergebnisse(java.lang.String)
+comment1.text=\r\n\ Speichere\ die\ Ergebnisse\ einer\ Suche\ im\ Adressbuch\r\n\ in\ der\ Datei\ 'Ergebnisse.txt'\ im\ Projektordner.\r\n\ @param\ praefix\ Der\ Schl\u00FCssel-Pr\u00E4fix,\ mit\ dem\ gesucht\r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ werden\ soll.\r\n
+comment2.params=
+comment2.target=void\ zeigeSuchergebnisse()
+comment2.text=\r\n\ Zeige\ die\ Ergebnisse\ des\ letzten\ Aufrufs\ von\r\n\ speichereSuchergebnisse.\ Da\ die\ Ausgabe\ auf\ der\r\n\ Konsole\ erfolgt,\ werden\ alle\ Probleme\ von\ dieser\r\n\ Methode\ unmittelbar\ gemeldet.\r\n
+comment3.params=dateiname
+comment3.target=void\ neueKontakteAusDatei(java.lang.String)
+comment3.text=\r\n\ F\u00FCge\ weitere\ Kontakte\ aus\ einer\ Textdatei\ dem\ Adressbuch\r\n\ hinzu.\ Die\ Datei\ sollte\ ein\ Element\ pro\ Zeile\ enthalten,\r\n\ plus\ eine\ Leerzeile\ zwischen\ den\ Kontakten\:\r\n\ \ \ \ \ Name\ \\n\ Telefon\ \\n\ Adresse\ \\n\ \\n\r\n\ Eine\ Zeile\ kann\ leer\ sein,\ wenn\ die\ entsprechende\r\n\ Information\ fehlt.\r\n\ @param\ dateiname\ der\ Name\ der\ Textdatei\ mit\ den\ Daten.\r\n\ @throws\ IOException\ Bei\ einem\ Fehler\ beim\ Einlesen.\r\n
+comment4.params=dateiname
+comment4.target=Adressbuch\ liesAusDatei(java.lang.String)
+comment4.text=\r\n\ Lies\ die\ Bin\u00E4rversion\ eines\ Adressbuchs\ aus\ der\ gegebenen\r\n\ Datei.\ Wenn\ der\ Dateiname\ kein\ absoluter\ Pfad\ ist,\ dann\r\n\ wird\ der\ Name\ als\ relativ\ zum\ Projektordner\ angesehen.\r\n\ @param\ dateiname\ der\ Name\ der\ Datei,\ aus\ der\ zu\ lesen\ ist.\r\n\ @return\ das\ Adressbuch-Objekt.\r\n\ @throws\ IOException\ Wenn\ das\ Einlesen\ fehlschl\u00E4gt.\r\n
+comment5.params=dateiname
+comment5.target=void\ speichereInDatei(java.lang.String)
+comment5.text=\r\n\ Speichere\ eine\ Bin\u00E4rversion\ des\ Adressbuchs\ in\r\n\ die\ Datei\ mit\ dem\ gegebenen\ Namen.\ Wenn\ der\ Dateiname\r\n\ nicht\ absolut\ ist,\ wird\ er\ als\ relativ\ zum\ aktuellen\r\n\ Projektordner\ angenommen.\ \r\n\ @param\ dateiname\ der\ Name\ der\ Datei,\ in\ der\ gespeichert\r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ werden\ soll.\r\n\ @throws\ IOException\ Falls\ das\ Speichern\ aus\ irgendeinem\r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ Grund\ fehlschl\u00E4gt.\r\n
+comment6.params=dateiname
+comment6.target=java.io.File\ erzeugeAbsolutenDateinamen(java.lang.String)
+comment6.text=\r\n\ Erzeuge\ aus\ dem\ gegebenen\ Dateinamen\ einen\ absoluten\r\n\ Dateinamen.\ Wenn\ der\ Dateiname\ bereits\ absolut\ ist,\r\n\ wird\ er\ unver\u00E4ndert\ gelassen,\ ansonsten\ wird\ der\ Name\r\n\ relativ\ zum\ aktuellen\ Projektordner\ erzeugt.\r\n\ @throws\ IOException\ wenn\ kein\ g\u00FCltiger\ Dateiname\ erstellbar\ ist.\r\n
+comment7.params=
+comment7.target=java.io.File\ gibProjektordner()
+comment7.text=\r\n\ Versuche\ den\ Namen\ des\ aktuellen\ Projektordners\ zu\r\n\ ermitteln.\ Dazu\ wird\ der\ Pfad\ der\ .class-Datei\ dieser\r\n\ Klasse\ ermittelt\ und\ daraus\ der\ Name\ des\ Ordners\r\n\ extrahiert,\ der\ diese\ Datei\ enth\u00E4lt.\r\n\ @throws\ URISyntaxException\ Wenn\ die\ URL\ nicht\ korrekt\ formatiert\ ist.\r\n\ @return\ den\ aktuellen\ Projektordner.\r\n
+numComments=8

@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.params=
+comment0.target=AdressbuchDemo()
+comment0.text=\r\n\ Lege\ ein\ Adressbuch\ mit\ Testdaten\ an.\r\n
+comment1.params=
+comment1.target=Adressbuch\ gibAdressbuch()
+comment1.text=\r\n\ @return\ das\ Adressbuch\ mit\ den\ Testdaten.\r\n
+numComments=2

@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.params=autor\ text
+comment0.target=NachrichtenEinsendung(java.lang.String,\ java.lang.String)
+comment0.text=\n\ Konstruktor\ f\u00FCr\ Objekte\ der\ Klasse\ NachrichtenEinsendung.\n\ \n\ @param\ autor\ \ \ \ der\ Benutzername\ des\ Einsenders.\n\ @param\ text\ \ \ \ \ \ der\ Text\ dieser\ Einsendung.\n
+comment1.params=
+comment1.target=java.lang.String\ gibText()
+comment1.text=\n\ Liefere\ den\ Text\ der\ Einsendung.\n\ \n\ @return\ der\ Nachrichtentext\ der\ Einsendung.\n
+comment2.params=
+comment2.target=void\ anzeigen()
+numComments=3

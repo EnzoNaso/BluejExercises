@@ -1,0 +1,20 @@
+#BlueJ class context
+comment0.params=tiefe\ breite
+comment0.target=Feld(int,\ int)
+comment0.text=\n\ Erzeuge\ ein\ Feld\ mit\ den\ angegebenen\ Dimensionen.\n\ @param\ tiefe\ die\ Tiefe\ des\ Feldes.\n\ @param\ breite\ die\ Breite\ des\ Feldes.\n
+comment1.params=
+comment1.target=void\ raeumen()
+comment1.text=\n\ R\u00E4ume\ das\ Feld.\n
+comment2.params=tier\ zeile\ spalte
+comment2.target=void\ platziere(java.lang.Object,\ int,\ int)
+comment2.text=\n\ Platziere\ das\ gegebene\ Tier\ an\ der\ angegebenen\ Position.\n\ Wenn\ an\ der\ Position\ bereits\ ein\ Tier\ eingetragen\ ist,\n\ geht\ es\ verloren.\n\ @param\ tier\ das\ Tier\ das\ platziert\ werden\ soll.\n\ @param\ zeile\ die\ Zeilenkoordinate\ der\ Position.\n\ @param\ spalte\ die\ Spaltenkoordinate\ der\ Position.\n
+comment3.params=zeile\ spalte
+comment3.target=java.lang.Object\ gibObjektAn(int,\ int)
+comment3.text=\n\ Liefere\ das\ Tier\ an\ der\ angegebenen\ Position,\ falls\ vorhanden.\n\ @param\ zeile\ die\ gew\u00FCnschte\ Zeile.\n\ @param\ spalte\ die\ gew\u00FCnschte\ Spalte.\n\ @return\ das\ Tier\ an\ der\ angegebenen\ Position\ oder\ null,\ wenn\n\ \ \ \ \ \ \ \ \ dort\ kein\ Tier\ eingetragen\ ist.\n
+comment4.params=
+comment4.target=int\ gibTiefe()
+comment4.text=\n\ Liefere\ die\ Tiefe\ dieses\ Feldes.\n\ @return\ die\ Tiefe\ dieses\ Feldes.\n
+comment5.params=
+comment5.target=int\ gibBreite()
+comment5.text=\n\ Liefere\ die\ Breite\ dieses\ Feldes.\n\ @return\ die\ Breite\ dieses\ Feldes.\n
+numComments=6

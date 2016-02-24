@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.params=
+comment0.target=LogdateiErzeuger()
+comment0.text=\r\n\ Erzeuge\ Logdateien.\r\n
+comment1.params=dateiname\ anzahlEintraege
+comment1.target=boolean\ erzeugeDatei(java.lang.String,\ int)
+comment1.text=\r\n\ Erzeuge\ eine\ Datei\ mit\ zuf\u00E4lligen\ Logeintr\u00E4gen.\r\n\ @param\ dateiname\ die\ Datei,\ in\ die\ geschrieben\ werden\ soll.\r\n\ @param\ anzahlEintraege\ wie\ viele\ Eintr\u00E4ge.\r\n\ @return\ true\ wenn\ erfolgreich,\ ansonsten\ false.\r\n
+comment2.params=
+comment2.target=Logeintrag\ erzeugeEintrag()
+comment2.text=\r\n\ Erzeuge\ einen\ einzelnen\ (zuf\u00E4lligen)\ \ Eintrag\ f\u00FCr\ eine\ Logdatei.\r\n\ @return\ Ein\ Logeintrag\ mit\ zuf\u00E4lligen\ Daten.\r\n
+numComments=3

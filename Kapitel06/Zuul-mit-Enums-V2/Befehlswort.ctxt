@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.params=befehlswort
+comment0.target=Befehlswort(java.lang.String)
+comment0.text=\r\n\ Initialisieren\ mit\ dem\ entsprechenden\ Befehlswort.\r\n\ @param\ befehlswort\ Das\ Befehlswort\ als\ Zeichenkette.\r\n
+comment1.params=
+comment1.target=java.lang.String\ toString()
+comment1.text=\r\n\ @return\ Das\ Befehlswort\ als\ Zeichenkette.\r\n
+numComments=2

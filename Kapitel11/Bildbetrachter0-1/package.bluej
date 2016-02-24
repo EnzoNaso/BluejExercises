@@ -1,0 +1,26 @@
+#BlueJ package file
+package.editor.height=318
+package.editor.width=443
+package.editor.x=367
+package.editor.y=8
+package.numDependencies=0
+package.numTargets=1
+package.showExtends=true
+package.showUses=true
+project.charset=windows-1252
+readme.editor.height=526
+readme.editor.width=748
+readme.editor.x=0
+readme.editor.y=0
+target1.editor.height=526
+target1.editor.width=748
+target1.editor.x=584
+target1.editor.y=56
+target1.height=50
+target1.name=Bildbetrachter
+target1.naviview.expanded=false
+target1.showInterface=false
+target1.type=ClassTarget
+target1.width=110
+target1.x=90
+target1.y=80

@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.params=
+comment0.target=NewsFeed()
+comment0.text=\r\n\ Erzeuge\ einen\ leeren\ Newsfeed.\r\n
+comment1.params=einsendung
+comment1.target=void\ erfasseEinsendung(Einsendung)
+comment1.text=\r\n\ F\u00FCge\ dem\ Newsfeed\ eine\ Einsendung\ hinzu.\r\n\ \r\n\ @param\ Einsendung\ \ die\ hinzuzuf\u00FCgende\ Einsendung.\r\n
+comment2.params=
+comment2.target=void\ zeigen()
+comment2.text=\r\n\ Gebe\ den\ Newsfeed\ aus.\ Derzeit\ werden\ die\ Details\ des\ Newsfeed\ auf\ die\r\n\ Konsole\ ausgegeben.\ (Noch\ zu\ tun\:\ ersetze\ diesen\ Code\ durch\ die\ Anzeige\ im\r\n\ Webbrowser.)\r\n
+numComments=3

@@ -1,0 +1,26 @@
+#BlueJ class context
+comment0.params=unternehmen\ position
+comment0.target=Taxi(Taxiunternehmen,\ Position)
+comment0.text=\r\n\ Konstruktor\ f\u00FCr\ Objekte\ der\ Klasse\ Taxi.\r\n\ @param\ unternehmen\ das\ Taxi-Unternehmen.\ Darf\ nicht\ null\ sein.\r\n\ @param\ position\ die\ Startposition\ des\ Fahrzeugs.\r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ Darf\ nicht\ null\ sein.\r\n\ @throws\ NullPointerException\ Wenn\ Unternehmen\ oder\ \r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ Position\ null\ sind.\r\n
+comment1.params=
+comment1.target=void\ agiere()
+comment1.text=\r\n\ Das\ Ziel\ ansteuern,\ falls\ wir\ eines\ haben.\r\n\ Ansonsten\ vermerken,\ dass\ wir\ ungenutzt\ sind.\r\n
+comment2.params=
+comment2.target=boolean\ istFrei()
+comment2.text=\r\n\ Ist\ dieses\ Taxi\ frei?\r\n\ @return\ ob\ dieses\ Taxi\ frei\ ist.\r\n
+comment3.params=position
+comment3.target=void\ setzeAbholpunkt(Position)
+comment3.text=\r\n\ Setze\ einen\ Abholpunkt.\ Dieser\ wird\ zur\r\n\ Zielposition.\r\n\ @param\ position\ der\ Abholpunkt.\r\n
+comment4.params=fahrgast
+comment4.target=void\ aufnehmen(Fahrgast)
+comment4.text=\r\n\ Nimm\ einen\ Fahrgast\ auf.\r\n\ Setze\ sein\ Ziel\ als\ die\ Zielposition.\r\n\ @param\ fahrgast\ der\ Fahrgast.\r\n
+comment5.params=
+comment5.target=void\ fahrgastAbsetzen()
+comment5.text=\r\n\ Setze\ den\ Fahrgast\ ab.\r\n
+comment6.params=
+comment6.target=java.awt.Image\ gibGrafik()
+comment6.text=\r\n\ Liefere\ eine\ Grafik,\ die\ den\ Zustand\ dieses\r\n\ Taxis\ beschreibt\:\ entweder\ leer\ oder\ mit\ \r\n\ einem\ Fahrgast\ beladen.\r\n
+comment7.params=
+comment7.target=java.lang.String\ toString()
+comment7.text=\r\n\ Liefere\ Details\ \u00FCber\ ein\ Taxi,\ etwa\ seine\ Position.\r\n\ @return\ eine\ String-Darstellung\ dieses\ Taxis.\r\n
+numComments=8

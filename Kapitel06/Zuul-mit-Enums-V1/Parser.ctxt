@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.params=
+comment0.target=Parser()
+comment0.text=\r\n\ Erzeuge\ einen\ Parser,\ der\ Befehle\ von\ der\ Konsole\ einliest.\r\n
+comment1.params=
+comment1.target=Befehl\ liefereBefehl()
+comment1.text=\r\n\ @return\ Den\ n\u00E4chsten\ Befehl\ des\ Benutzers.\r\n
+comment2.params=
+comment2.target=void\ zeigeBefehle()
+comment2.text=\r\n\ Gib\ eine\ Liste\ der\ bekannten\ Befehlsw\u00F6rter\ aus.\r\n
+numComments=3

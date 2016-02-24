@@ -1,0 +1,26 @@
+#BlueJ class context
+comment0.params=
+comment0.target=Spiel()
+comment0.text=\n\ Erzeuge\ ein\ Spiel\ und\ initialisiere\ die\ interne\ Raumkarte.\n
+comment1.params=
+comment1.target=void\ raeumeAnlegen()
+comment1.text=\n\ Erzeuge\ alle\ R\u00E4ume\ und\ verbinde\ ihre\ Ausg\u00E4nge\ miteinander.\n
+comment2.params=
+comment2.target=void\ spielen()
+comment2.text=\n\ Die\ Hauptmethode\ zum\ Spielen.\ L\u00E4uft\ bis\ zum\ Ende\ des\ Spiels\n\ in\ einer\ Schleife.\n
+comment3.params=
+comment3.target=void\ willkommenstextAusgeben()
+comment3.text=\n\ Einen\ Begr\u00FC\u00DFungstext\ f\u00FCr\ den\ Spieler\ ausgeben.\n
+comment4.params=befehl
+comment4.target=boolean\ verarbeiteBefehl(Befehl)
+comment4.text=\n\ Verarbeite\ einen\ gegebenen\ Befehl\ (f\u00FChre\ ihn\ aus).\n\ @param\ befehl\ Der\ zu\ verarbeitende\ Befehl.\n\ @return\ 'true',\ wenn\ der\ Befehl\ das\ Spiel\ beendet,\ 'false'\ sonst.\n
+comment5.params=
+comment5.target=void\ hilfstextAusgeben()
+comment5.text=\n\ Gib\ Hilfsinformationen\ aus.\n\ Hier\ geben\ wir\ eine\ etwas\ alberne\ und\ unklare\ Beschreibung\n\ aus,\ sowie\ eine\ Liste\ der\ Befehlsw\u00F6rter.\n
+comment6.params=befehl
+comment6.target=void\ wechsleRaum(Befehl)
+comment6.text=\n\ Versuche,\ in\ eine\ Richtung\ zu\ gehen.\ Wenn\ es\ einen\ Ausgang\ gibt,\n\ wechsele\ in\ den\ neuen\ Raum,\ ansonsten\ gib\ eine\ Fehlermeldung\n\ aus.\n
+comment7.params=befehl
+comment7.target=boolean\ beenden(Befehl)
+comment7.text=\n\ "quit"\ wurde\ eingegeben.\ \u00DCberpr\u00FCfe\ den\ Rest\ des\ Befehls,\n\ ob\ das\ Spiel\ wirklich\ beendet\ werden\ soll.\n\ @return\ 'true',\ wenn\ der\ Befehl\ das\ Spiel\ beendet,\ 'false'\ sonst.\n
+numComments=8

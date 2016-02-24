@@ -1,0 +1,20 @@
+#BlueJ class context
+comment0.params=name
+comment0.target=Kantenfilter(java.lang.String)
+comment0.text=\r\n\ Konstruktor\ f\u00FCr\ Objekte\ der\ Klasse\ Kantenfilter\r\n\ @param\ name\ der\ Name\ des\ Filters.\r\n
+comment1.params=bild
+comment1.target=void\ anwenden(Farbbild)
+comment1.text=\r\n\ Wende\ diesen\ Filter\ auf\ das\ gegebene\ Bild\ an.\r\n\ \r\n\ @param\ \ bild\ \ Das\ Bild,\ das\ dieser\ Filter\ ver\u00E4ndern\ soll.\r\n
+comment2.params=xpos\ ypos
+comment2.target=java.awt.Color\ hervorheben(int,\ int)
+comment2.text=\r\n\ Liefere\ eine\ neue\ Farbe,\ die\ sich\ aus\ der\ Hervorhebung\r\n\ der\ Farbe\ einer\ gegebenen\ Position\ ergibt.\ "Hervorhebung"\ sei\r\n\ hier\ der\ Farbwert,\ der\ sich\ aus\ dem\ Verh\u00E4ltnis\ des\ Farbwertes\r\n\ des\ gegebenen\ Punktes\ und\ aller\ angrenzender\ Farbpunktwerte\ ergibt\r\n\ -\ je\ gr\u00F6\u00DFer\ die\ Helligkeitsunterschiede\ zwischen\ den\ Punkten,\r\n\ desto\ dunkler\ ist\ das\ Ergebnis.\r\n\ @param\ xpos\ Die\ x-Koordinate\ des\ Bildpunktes.\r\n\ @param\ ypos\ Die\ y-Koordinate\ des\ Bildpunktes.\r\n\ @return\ die\ hervorgehobene\ Farbe.\r\n
+comment3.params=bildpunkte
+comment3.target=int\ diffRot(java.util.List)
+comment3.text=\r\n\ @param\ bildpunkte\ eine\ Liste\ von\ Bildpunkten,\ die\ untersucht\ werden\ sollen.\r\n\ @return\ die\ Differenz\ zwischen\ dem\ hellsten\ und\ dem\ dunkelsten\r\n\ Rotwert\ in\ der\ gegebenen\ Liste\ von\ Bildpunkten.\r\n
+comment4.params=bildpunkte
+comment4.target=int\ diffGruen(java.util.List)
+comment4.text=\r\n\ @param\ bildpunkte\ eine\ Liste\ von\ Bildpunkten,\ die\ untersucht\ werden\ sollen.\r\n\ @return\ die\ Differenz\ zwischen\ dem\ hellsten\ und\ dem\ dunkelsten\r\n\ Gr\u00FCnwert\ in\ der\ gegebenen\ Liste\ von\ Bildpunkten.\r\n
+comment5.params=bildpunkte
+comment5.target=int\ diffBlau(java.util.List)
+comment5.text=\r\n\ @param\ bildpunkte\ eine\ Liste\ von\ Bildpunkten,\ die\ untersucht\ werden\ sollen.\r\n\ @return\ die\ Differenz\ zwischen\ dem\ hellsten\ und\ dem\ dunkelsten\r\n\ Blauwert\ in\ der\ gegebenen\ Liste\ von\ Bildpunkten.\r\n
+numComments=6

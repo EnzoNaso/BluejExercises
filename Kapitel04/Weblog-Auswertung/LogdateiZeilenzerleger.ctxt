@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.params=
+comment0.target=LogdateiZeilenzerleger()
+comment0.text=\r\n\ Erzeuge\ einen\ LogLineAnalyzer\r\n
+comment1.params=logZeile\ datenZeile
+comment1.target=void\ zerlegen(java.lang.String,\ int[])
+comment1.text=\r\n\ Zerlege\ eine\ Zeile\ der\ Logdatei.\ Lege\ die\ enthaltenen\ Zahlenwerte\r\n\ in\ einem\ Array\ ab.\ Die\ Anzahl\ Elemente\ (Token)\ in\ einer\ Zeile\ muss\r\n\ ausreichen,\ um\ das\ Array\ zu\ f\u00E4llen.\r\n\r\n\ @param\ logZeile\ die\ zu\ zerlegende\ Zeile.\r\n\ @param\ datenZeile\ wo\ sollen\ die\ Werte\ gespeichert\ werden.\r\n
+numComments=2

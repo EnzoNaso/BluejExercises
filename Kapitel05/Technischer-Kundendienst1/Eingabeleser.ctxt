@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.params=
+comment0.target=Eingabeleser()
+comment0.text=\r\n\ Erzeuge\ einen\ neuen\ Eingabeleser,\ der\ Text\ von\ der\ Konsole\r\n\ einliest.\r\n
+comment1.params=
+comment1.target=java.lang.String\ gibEingabe()
+comment1.text=\r\n\ Lies\ eine\ Zeile\ von\ der\ Konsole\ und\ liefere\ sie\ als\ String.\r\n\r\n\ @return\ \ Eine\ Zeichenkette,\ die\ vom\ Benutzer\ eingetippt\ wurde.\r\n
+numComments=2

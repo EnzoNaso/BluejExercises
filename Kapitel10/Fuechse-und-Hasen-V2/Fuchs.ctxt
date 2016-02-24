@@ -1,0 +1,26 @@
+#BlueJ class context
+comment0.params=zufaelligesAlter\ feld\ position
+comment0.target=Fuchs(boolean,\ Feld,\ Position)
+comment0.text=\r\n\ Erzeuge\ einen\ Fuchs.\ Ein\ Fuchs\ wird\ entweder\ neu\ geboren\r\n\ (Alter\ 0\ Jahre\ und\ nicht\ hungrig)\ oder\ kann\ mit\ einem\ zuf\u00E4lligen\ Alter\r\n\ und\ zuf\u00E4lligem\ Hungergef\u00FChl\ erzeugt\ werden.\r\n\ \r\n\ @param\ zufaelligesAlter\ falls\ true,\ hat\ der\ neue\ Fuchs\ ein\ \r\n\ \ \ \ \ \ \ \ zuf\u00E4lliges\ Alter\ und\ einen\ zuf\u00E4lligen\ Futter-Level.\r\n\ @param\ feld\ Das\ aktuelle\ belegte\ Feld\r\n\ @param\ position\ Die\ Position\ im\ Feld\r\n
+comment1.params=neueFuechse
+comment1.target=void\ agiere(java.util.List)
+comment1.text=\r\n\ Das\ ist\ was\ ein\ Fuchs\ die\ meiste\ Zeit\ tut\:\ er\ jagt\ Hasen.\r\n\ Dabei\ kann\ er\ Nachwuchs\ geb\u00E4ren,\ vor\ Hunger\ sterben\ oder\r\n\ an\ Altersschw\u00E4che.\r\n\ @param\ neueFuechse\ eine\ Liste\ zum\ Zur\u00FCckliefern\ neu\ geborener\ F\u00FCchse.\r\n
+comment2.params=
+comment2.target=void\ alterErhoehen()
+comment2.text=\r\n\ Erh\u00F6he\ das\ Alter\ dieses\ Fuchses.\ Dies\ kann\ zu\ seinem\r\n\ Tod\ f\u00FChren.\r\n
+comment3.params=
+comment3.target=void\ hungerVergroessern()
+comment3.text=\r\n\ Vergr\u00F6\u00DFere\ den\ Hunger\ dieses\ Fuchses.\ Dies\ kann\ zu\ seinem\r\n\ Tode\ f\u00FChren.\r\n
+comment4.params=
+comment4.target=Position\ findeNahrung()
+comment4.text=\r\n\ Suche\ nach\ Nahrung\ (Hasen)\ in\ den\ Nachbarpositionen.\r\n\ Es\ wird\ nur\ der\ erste\ lebendige\ Hase\ gefressen.\r\n\ @return\ die\ Position\ mit\ Nahrung,\ oder\ null,\ wenn\ keine\ vorhanden.\r\n
+comment5.params=neueFuechse
+comment5.target=void\ gebaereNachwuchs(java.util.List)
+comment5.text=\r\n\ Pr\u00FCfe,\ ob\ dieser\ Fuchs\ in\ diesem\ Schritt\ geb\u00E4ren\ kann.\r\n\ Neugeborene\ kommen\ in\ freie\ Nachbarpositionen.\r\n\ @param\ neueFuechse\ eine\ Liste\ zum\ Zur\u00FCckliefern\ neu\ geborener\ F\u00FCchse.\r\n
+comment6.params=
+comment6.target=int\ traechtig()
+comment6.text=\r\n\ Erzeuge\ eine\ Zahl\ f\u00FCr\ die\ Wurfgroesse,\ wenn\ der\ Fuchs\r\n\ gebaeren\ kann.\r\n\ @return\ \ Wurfgroesse\ (kann\ Null\ sein).\r\n
+comment7.params=
+comment7.target=boolean\ kannGebaeren()
+comment7.text=\r\n\ Ein\ Fuchs\ kann\ geb\u00E4ren,\ wenn\ er\ das\ geb\u00E4rf\u00E4hige\r\n\ Alter\ erreicht\ hat.\r\n
+numComments=8

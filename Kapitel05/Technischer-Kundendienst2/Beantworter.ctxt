@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.params=
+comment0.target=Beantworter()
+comment0.text=\r\n\ Erzeuge\ einen\ Beantworter\r\n
+comment1.params=
+comment1.target=java.lang.String\ generiereAntwort()
+comment1.text=\r\n\ Generiere\ eine\ Antwort.\r\n\ \r\n\ @return\ einen\ String,\ der\ die\ Antwort\ enth\u00E4lt.\r\n
+comment2.params=
+comment2.target=void\ antwortlisteFuellen()
+comment2.text=\r\n\ Generiere\ eine\ Liste\ von\ Standardantworten,\ aus\ denen\ wir\ eine\r\n\ ausw\u00E4hlen\ k\u00F6nnen,\ wenn\ wir\ keine\ bessere\ Antwort\ wissen.\r\n
+numComments=3

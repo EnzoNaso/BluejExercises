@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.params=name
+comment0.target=Grobrasterfilter(java.lang.String)
+comment0.text=\r\n\ Konstruktor\ f\u00FCr\ Objekte\ der\ Klasse\ Grobrasterfilter\r\n\ @param\ name\ der\ Name\ des\ Filters.\r\n
+comment1.params=bild
+comment1.target=void\ anwenden(Farbbild)
+comment1.text=\r\n\ Wende\ diesen\ Filter\ auf\ das\ gegebene\ Bild\ an.\r\n\ \r\n\ @param\ \ bild\ \ Das\ Bild,\ das\ dieser\ Filter\ ver\u00E4ndern\ soll.\r\n
+numComments=2

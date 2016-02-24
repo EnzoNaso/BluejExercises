@@ -1,0 +1,18 @@
+#BlueJ class context
+comment0.params=
+comment0.target=Bild()
+comment0.text=\r\n\ Erzeuge\ ein\ Exemplar\ der\ Klasse\ Bild\r\n
+comment1.params=
+comment1.target=void\ zeichne()
+comment1.text=\r\n\ Zeichne\ das\ Bild.\r\n
+comment2.params=person
+comment2.target=void\ personzuHaus(Person)
+comment3.params=sonne
+comment3.target=void\ sonnenUntergang(Kreis)
+comment4.params=
+comment4.target=void\ inSchwarzWeissAendern()
+comment4.text=\r\n\ \u00C4ndere\ die\ Darstellung\ in\ schwarz-wei\u00DF.\r\n
+comment5.params=
+comment5.target=void\ inFarbeAendern()
+comment5.text=\r\n\ \u00C4ndere\ die\ Darstellung\ in\ Farbe.\r\n
+numComments=6

@@ -1,0 +1,20 @@
+#BlueJ class context
+comment0.params=
+comment0.target=TaxiTest()
+comment0.text=\r\n\ Konstruktor\ f\u00FCr\ die\ Test-Klasse\ TaxiTest\r\n
+comment1.params=
+comment1.target=void\ setUp()
+comment1.text=\r\n\ \ Erzeuge\ ein\ Taxi.\r\n\r\n\ Wird\ vor\ jeder\ Testfall-Methode\ aufgerufen.\r\n
+comment2.params=
+comment2.target=void\ tearDown()
+comment2.text=\r\n\ Gibt\ das\ Testger\u00FCst\ wieder\ frei.\r\n\r\n\ Wird\ nach\ jeder\ Testfall-Methode\ aufgerufen.\r\n
+comment3.params=
+comment3.target=void\ testErzeugung()
+comment3.text=\r\n\ Teste\ die\ Erzeugung\ und\ den\ Anfangszustand\ eines\ Taxis.\r\n
+comment4.params=
+comment4.target=void\ testAbholung()
+comment4.text=\r\n\ Teste,\ ob\ ein\ Taxi\ nicht\ mehr\ frei\ ist,\ nachdem\ es\r\n\ einen\ Fahrgast\ aufgenommen\ hat.\r\n
+comment5.params=
+comment5.target=void\ testAbsetzen()
+comment5.text=\r\n\ Test,\ ob\ ein\ Taxi\ wieder\ frei\ ist,\ nachdem\ es\ einen\r\n\ Fahrgast\ abgesetzt\ hat.\r\n
+numComments=6

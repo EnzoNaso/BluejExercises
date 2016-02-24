@@ -1,0 +1,14 @@
+#BlueJ class context
+comment0.params=stadt\ unternehmen
+comment0.target=Fahrgastquelle(Stadt,\ Taxiunternehmen)
+comment0.text=\r\n\ Konstruktor\ f\u00FCr\ Objekte\ der\ Klasse\ FahrgastQuelle.\r\n\ @param\ stadt\ die\ Stadt\ der\ Simulation.\r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ Darf\ nicht\ null\ sein.\r\n\ @param\ unternehmen\ das\ gew\u00E4hlte\ Unternehmen.\r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ Darf\ nicht\ null\ sein.\r\n\ @throws\ NullPointerException\ wenn\ stadt\ oder\r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ unternehmen\ null\ ist.\r\n
+comment1.params=
+comment1.target=void\ agiere()
+comment1.text=\r\n\ Erzeuge\ zufallsabh\u00E4ngig\ einen\ neuen\ Fahrgast.\r\n\ Vermerke\ vergebliche\ Taxirufe.\r\n
+comment2.params=
+comment2.target=int\ gibVergeblicheTaxirufe()
+comment2.text=\r\n\ @return\ die\ Anzahl\ der\ vergeblichen\ Taxirufe.\r\n
+comment3.params=
+comment3.target=Fahrgast\ erzeugeFahrgast()
+comment3.text=\r\n\ Erzeuge\ einen\ neuen\ Fahrgast,\ bei\ dem\ sich\ \r\n\ Abholpunkt\ und\ Ziel\ garantiert\ unterscheiden.\r\n\ @return\ den\ erzeugten\ Fahrgast.\r\n
+numComments=4

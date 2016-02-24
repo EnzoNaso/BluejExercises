@@ -1,0 +1,20 @@
+#BlueJ class context
+comment0.params=
+comment0.target=Uhrenanzeige()
+comment0.text=\n\ Konstruktor\ f\u00FCr\ ein\ Exemplar\ von\ Uhrenanzeige.\n\ Mit\ diesem\ Konstruktor\ wird\ die\ Anzeige\ auf\ 00\:00\ initialisiert.\n
+comment1.params=stunde\ minute
+comment1.target=Uhrenanzeige(int,\ int)
+comment1.text=\n\ Konstruktor\ f\u00FCr\ ein\ Exemplar\ von\ Uhrenanzeige.\n\ Mit\ diesem\ Konstruktor\ wird\ die\ Anzeige\ auf\ den\ Wert\n\ initialisiert,\ der\ durch\ 'stunde'\ und\ 'minute'\ \n\ definiert\ ist.\n
+comment2.params=
+comment2.target=void\ taktsignalGeben()
+comment2.text=\n\ Diese\ Operation\ sollte\ einmal\ pro\ Minute\ aufgerufen\ werden\ -\n\ sie\ sorgt\ daf\u00FCr,\ dass\ diese\ Uhrenanzeige\ um\ eine\ Minute\n\ weiter\ gestellt\ wird.\n
+comment3.params=stunde\ minute
+comment3.target=void\ setzeUhrzeit(int,\ int)
+comment3.text=\n\ Setze\ die\ Uhrzeit\ dieser\ Anzeige\ auf\ die\ gegebene\ 'stunde'\ und\n\ 'minute'.\n
+comment4.params=
+comment4.target=java.lang.String\ gibUhrzeit()
+comment4.text=\n\ Liefere\ die\ aktuelle\ Uhrzeit\ dieser\ Uhrenanzeige\ im\ Format\ SS\:MM.\n
+comment5.params=
+comment5.target=void\ anzeigeAktualisieren()
+comment5.text=\n\ Aktualisiere\ die\ interne\ Zeichenkette,\ die\ die\ Zeitanzeige\ h\uFFFDlt.\n
+numComments=6

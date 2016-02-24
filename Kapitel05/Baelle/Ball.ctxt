@@ -1,0 +1,20 @@
+#BlueJ class context
+comment0.params=xPos\ yPos\ balldurchmesser\ ballfarbe\ bodenPosition\ zeichengrund
+comment0.target=Ball(int,\ int,\ int,\ java.awt.Color,\ int,\ java.awt.Canvas)
+comment0.text=\n\ Konstruktor\ f\u00FCr\ Exemplare\ von\ Ball\n\n\ @param\ xPos\ \ die\ horizontale\ Koordinate\ des\ Balles\n\ @param\ yPos\ \ die\ vertikale\ Koordinate\ des\ Balles\n\ @param\ balldurchmesser\ \ der\ Durchmesser\ des\ Balles\ (in\ Bildschirmpunkten)\n\ @param\ ballfarbe\ \ die\ Farbe\ des\ Balles\n\ @param\ bodenPosition\ \ die\ y-Position\ des\ Bodens\ (wo\ der\ Ball\ aufspringt)\n\ @param\ zeichengrund\ die\ Leinwand,\ auf\ der\ dieser\ Ball\ gezeichnet\ wird\n
+comment1.params=
+comment1.target=void\ zeichnen()
+comment1.text=\n\ Zeichne\ diesen\ Ball\ an\ der\ aktuellen\ Position\ auf\ die\ Leinwand.\n
+comment2.params=
+comment2.target=void\ loeschen()
+comment2.text=\n\ L\u00F6sche\ diesen\ Ball\ an\ seiner\ aktuellen\ Position.\n
+comment3.params=
+comment3.target=void\ bewegen()
+comment3.text=\n\ Bewege\ diesen\ Ball\ entsprechend\ seiner\ Position\ und\ \n\ Geschwindigkeit\ und\ zeichne\ ihn\ erneut.\n
+comment4.params=
+comment4.target=int\ gibXPosition()
+comment4.text=\n\ Liefere\ die\ horizontale\ Position\ dieses\ Balls.\n
+comment5.params=
+comment5.target=int\ gibYPosition()
+comment5.text=\n\ Liefere\ die\ vertikale\ Position\ dieses\ Balls.\n
+numComments=6

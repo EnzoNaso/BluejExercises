@@ -1,0 +1,17 @@
+#BlueJ class context
+comment0.params=erstesWort\ zweitesWort
+comment0.target=Befehl(java.lang.String,\ java.lang.String)
+comment0.text=\n\ Erzeuge\ ein\ Befehlsobjekt.\ Beide\ W\u00F6rter\ m\u00FCssen\ angegeben\ werden,\n\ aber\ jedes\ oder\ beide\ d\u00FCrfen\ 'null'\ sein.\n\ @param\ erstesWort\ Das\ erste\ Wort\ des\ Befehls.\ Sollte\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ 'null'\ sein,\ wenn\ dieser\ Befehl\ als\ nicht\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ vom\ Spiel\ erkannt\ gekennzeichnet\ werden\ soll.\n\ @param\ zweitesWort\ Das\ zweite\ Wort\ des\ Befehls.\n
+comment1.params=
+comment1.target=java.lang.String\ gibBefehlswort()
+comment1.text=\n\ Liefere\ das\ Befehlswort\ (das\ erste\ Wort)\ dieses\ Befehls.\n\ Wenn\ der\ Befehl\ nicht\ verstanden\ wurde,\ ist\ das\ Ergebnis\n\ 'null'.\n\ @return\ das\ Befehlswort.\n
+comment2.params=
+comment2.target=java.lang.String\ gibZweitesWort()
+comment2.text=\n\ @return\ Das\ zweite\ Wort\ dieses\ Befehls.\ Liefere\ 'null',\ wenn\n\ es\ kein\ zweites\ Wort\ gab.\n
+comment3.params=
+comment3.target=boolean\ istUnbekannt()
+comment3.text=\n\ @return\ 'true',\ wenn\ dieser\ Befehl\ nicht\ verstanden\ wurde.\n
+comment4.params=
+comment4.target=boolean\ hatZweitesWort()
+comment4.text=\n\ @return\ 'true',\ wenn\ dieser\ Befehl\ ein\ zweites\ Wort\ hat.\n
+numComments=5

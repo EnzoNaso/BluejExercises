@@ -1,0 +1,20 @@
+#BlueJ class context
+comment0.params=beschreibung
+comment0.target=Raum(java.lang.String)
+comment0.text=\r\n\ Erzeuge\ einen\ Raum\ mit\ einer\ Beschreibung.\ Ein\ Raum\r\n\ hat\ anfangs\ keine\ Ausg\u00E4nge.\r\n\ @param\ beschreibung\ enth\u00E4lt\ eine\ Beschreibung\ in\ der\ Form\r\n\ \ \ \ \ \ \ \ "in\ einer\ K\u00FCche"\ oder\ "auf\ einem\ Sportplatz".\r\n
+comment1.params=richtung\ nachbar
+comment1.target=void\ setzeAusgang(java.lang.String,\ Raum)
+comment1.text=\r\n\ Definiere\ einen\ Ausgang\ f\u00FCr\ diesen\ Raum.\r\n\ @param\ richtung\ die\ Richtung,\ in\ der\ der\ Ausgang\ liegen\ soll\r\n\ @param\ nachbar\ der\ Raum,\ der\ \u00FCber\ diesen\ Ausgang\ erreicht\ wird\r\n
+comment2.params=
+comment2.target=java.lang.String\ gibKurzbeschreibung()
+comment2.text=\r\n\ @return\ die\ kurze\ Beschreibung\ dieses\ Raums\ (die\ dem\ Konstruktor\r\n\ \u00FCbergeben\ wurde).\r\n
+comment3.params=
+comment3.target=java.lang.String\ gibLangeBeschreibung()
+comment3.text=\r\n\ Liefere\ eine\ lange\ Beschreibung\ dieses\ Raums,\ in\ der\ Form\:\r\n\ \ \ \ \ Sie\ sind\ in\ der\ K\u00FCche.\r\n\ \ \ \ \ Ausg\u00E4nge\:\ nord\ west\r\n\ @return\ eine\ lange\ Beschreibung\ dieses\ Raumes.\r\n
+comment4.params=
+comment4.target=java.lang.String\ gibAusgaengeAlsString()
+comment4.text=\r\n\ Liefere\ eine\ Zeichenkette,\ die\ die\ Ausg\u00E4nge\ dieses\ Raums\r\n\ beschreibt,\ beispielsweise\r\n\ "Ausg\u00E4nge\:\ north\ west".\r\n\ @return\ Eine\ Beschreibung\ der\ Ausg\u00E4nge\ dieses\ Raumes.\r\n
+comment5.params=richtung
+comment5.target=Raum\ gibAusgang(java.lang.String)
+comment5.text=\r\n\ Liefere\ den\ Raum,\ den\ wir\ erreichen,\ wenn\ wir\ aus\ diesem\ Raum\r\n\ in\ die\ angegebene\ Richtung\ gehen.\ Liefere\ 'null',\ wenn\ in\r\n\ dieser\ Richtung\ kein\ Ausgang\ ist.\r\n\ @param\ richtung\ die\ Richtung,\ in\ die\ gegangen\ werden\ soll.\r\n\ @return\ den\ Raum\ in\ der\ angegebenen\ Richtung.\r\n
+numComments=6

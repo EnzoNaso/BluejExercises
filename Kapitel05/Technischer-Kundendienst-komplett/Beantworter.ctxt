@@ -1,0 +1,17 @@
+#BlueJ class context
+comment0.params=
+comment0.target=Beantworter()
+comment0.text=\r\n\ Erzeuge\ einen\ Beantworter.\r\n
+comment1.params=woerter
+comment1.target=java.lang.String\ generiereAntwort(java.util.HashSet)
+comment1.text=\r\n\ Generiere\ eine\ Antwort\ auf\ eine\ gegebene\ Menge\ von\ Eingabew\u00F6rtern.\r\n\ \r\n\ @param\ woerter\ Eine\ Menge\ von\ W\u00F6rtern,\ die\ der\ Benutzer\ eingegeben\ hat\r\n\ @return\ Eine\ Zeichenkette,\ die\ als\ Antwort\ geliefert\ werden\ soll\r\n
+comment2.params=
+comment2.target=void\ antwortMapBefuellen()
+comment2.text=\r\n\ Trage\ alle\ bekannten\ Stichw\u00F6rter\ mit\ ihren\ verkn\u00FCpften\r\n\ Antworten\ in\ die\ Map\ 'antwortMap'\ ein.\r\n
+comment3.params=
+comment3.target=void\ standardantwortlisteFuellen()
+comment3.text=\r\n\ Generiere\ eine\ Liste\ von\ Standardantworten,\ aus\ denen\ wir\ eine\r\n\ ausw\u00E4hlen\ k\u00F6nnen,\ wenn\ wir\ keine\ bessere\ Antwort\ wissen.\r\n
+comment4.params=
+comment4.target=java.lang.String\ standardantwortAusw\u00E4hlen()
+comment4.text=\r\n\ W\u00E4hle\ zuf\u00E4llig\ eine\ der\ Standardantworten\ aus.\r\n\ @return\ eine\ zuf\u00E4llig\ gew\u00E4hlte\ Standardantwort.\r\n
+numComments=5

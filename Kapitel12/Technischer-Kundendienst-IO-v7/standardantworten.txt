@@ -1,0 +1,10 @@
+Das klingt seltsam. Können Sie das Problem ausführlicher beschreiben?
+Bisher hat sich noch kein Kunde darüber beschwert.
+Welche Systemkonfiguration haben Sie?
+Das klingt interessant. Erzählen Sie mehr...
+Da brauche ich etwas ausführlichere Angaben.
+Haben Sie geprüft, ob Sie einen Konflikt mit einer DLL haben?
+Das steht im Handbuch. Haben Sie das Handbuch gelesen?
+Das klingt alles etwas wischi-waschi. Haben Sie einen Experten in der Nähe, der das etwas präziser beschreiben kann?
+Das ist kein Fehler, das ist eine Systemeigenschaft!
+Könnten Sie es anders erklären?

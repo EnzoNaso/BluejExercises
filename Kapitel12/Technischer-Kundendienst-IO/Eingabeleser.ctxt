@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.params=
+comment0.target=Eingabeleser()
+comment0.text=\r\n\ Erzeuge\ einen\ neuen\ Eingabeleser,\ der\ Text\ von\ der\ Konsole\r\n\ einliest.\r\n
+comment1.params=
+comment1.target=java.util.HashSet\ gibEingabe()
+comment1.text=\r\n\ Lies\ eine\ Zeile\ von\ der\ Konsole\ und\ liefere\ sie\ als\ eine\r\n\ Menge\ von\ W\u00F6rtern\ zur\u00FCck.\r\n\r\n\ @return\ \ Eine\ Menge\ von\ Zeichenketten,\ von\ denen\ jede\ ein\r\n\ \ \ \ \ \ \ \ \ \ vom\ Benutzer\ getipptes\ Wort\ repr\u00E4sentiert.\r\n
+numComments=2

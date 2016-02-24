@@ -1,0 +1,20 @@
+#BlueJ class context
+comment0.params=name
+comment0.target=Weichzeichnerfilter(java.lang.String)
+comment0.text=\r\n\ Konstruktor\ f\u00FCr\ Objekte\ der\ Klasse\ Weichzeichnerfilter\r\n\ @param\ name\ der\ Name\ des\ Filters.\r\n
+comment1.params=bild
+comment1.target=void\ anwenden(Farbbild)
+comment1.text=\r\n\ Wende\ diesen\ Filter\ auf\ das\ gegebene\ Bild\ an.\r\n\ \r\n\ @param\ \ bild\ \ Das\ Bild,\ das\ dieser\ Filter\ ver\u00E4ndern\ soll.\r\n
+comment2.params=xpos\ ypos
+comment2.target=java.awt.Color\ angleichen(int,\ int)
+comment2.text=\r\n\ Liefere\ die\ angegeglichene\ Farbe\ des\ angegebenen\ Bildpunktes.\r\n\ Die\ "angeglichene"\ Farbe\ ist\ der\ Farbwert,\ der\ sich\ aus\ dem\ \r\n\ Durchschnitt\ der\ Farbwerte\ dieses\ Bildpunktes\ und\ aller\r\n\ angrenzenden\ Punkte\ ergibt.\r\n\ @param\ xpos\ die\ x-Koordinate\ des\ Bildpunktes.\r\n\ @param\ ypos\ die\ y-Koordinate\ des\ Bildpunktes.\r\n\ @return\ die\ angeglichene\ Farbe.\r\n
+comment3.params=punkte
+comment3.target=int\ rotMittel(java.util.List)
+comment3.text=\r\n\ @param\ punkte\ eine\ Liste\ von\ Bildpunktfarben.\r\n\ @return\ den\ Durchschnittswert\ aller\ Rotwerte\ aus\ der\ gegebenen\r\n\ Liste\ von\ Bildpunktfarben.\r\n
+comment4.params=punkte
+comment4.target=int\ gruenMittel(java.util.List)
+comment4.text=\r\n\ @param\ punkte\ eine\ Liste\ von\ Bildpunktfarben.\r\n\ @return\ den\ Durchschnittswert\ aller\ Gr\u00FCnwerte\ aus\ der\ gegebenen\r\n\ Liste\ von\ Bildpunktfarben.\r\n
+comment5.params=punkte
+comment5.target=int\ blauMittel(java.util.List)
+comment5.text=\r\n\ @param\ punkte\ eine\ Liste\ von\ Bildpunktfarben.\r\n\ @return\ den\ Durchschnittswert\ aller\ Blauwerte\ aus\ der\ gegebenen\r\n\ Liste\ von\ Bildpunktfarben.\r\n
+numComments=6

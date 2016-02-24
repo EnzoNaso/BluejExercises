@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.params=fahrzeug
+comment0.target=FehlenderFahrgastException(Fahrzeug)
+comment0.text=\r\n\ Konstruktor\ f\u00FCr\ Objekte\ der\ Klasse\ FehlenderFahrgastException.\ \r\n\ @param\ fahrzeug\ das\ Fahrzeug,\ das\ einen\ Passagier\ erwartet.\r\n
+comment1.params=
+comment1.target=Fahrzeug\ gibFahrzeug()
+comment1.text=\r\n\ @return\ das\ Fahrzeug,\ f\u00FCr\ das\ kein\ Fahrgast\ vorhanden\ war.\r\n
+numComments=2

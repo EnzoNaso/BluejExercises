@@ -1,0 +1,17 @@
+#BlueJ class context
+comment0.params=name
+comment0.target=Zaehler(java.lang.String)
+comment0.text=\r\n\ Initialisiere\ mit\ dem\ Namen\ des\ Typs.\r\n\ @param\ name\ Ein\ Name,\ z.B.\ "Fuchs".\r\n
+comment1.params=
+comment1.target=java.lang.String\ gibName()
+comment1.text=\r\n\ @return\ den\ Namen\ des\ Typs\ dieses\ Z\u00E4hlers.\r\n
+comment2.params=
+comment2.target=int\ gibStand()
+comment2.text=\r\n\ @return\ den\ aktuellen\ Z\u00E4hlerstand\ dieses\ Typs.\r\n
+comment3.params=
+comment3.target=void\ erhoehen()
+comment3.text=\r\n\ Erh\u00F6he\ diesen\ Z\u00E4hler\ um\ Eins.\r\n
+comment4.params=
+comment4.target=void\ zuruecksetzen()
+comment4.text=\r\n\ Setze\ diesen\ Z\u00E4hler\ auf\ Null\ zur\u00FCck.\r\n
+numComments=5

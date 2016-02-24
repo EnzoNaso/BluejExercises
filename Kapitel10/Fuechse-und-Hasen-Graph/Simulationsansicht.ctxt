@@ -1,0 +1,14 @@
+#BlueJ class context
+comment0.params=tierklasse\ farbe
+comment0.target=void\ setzeFarbe(java.lang.Class,\ java.awt.Color)
+comment0.text=\r\n\ Definiere\ eine\ Farbe\ f\uFFFDr\ die\ gegebene\ Tierklasse.\r\n\ @param\ tierklasse\ Das\ Klassenobjekt\ der\ Tierklasse.\r\n\ @param\ farbe\ Die\ zu\ benutzende\ Farbe\ f\uFFFDr\ die\ Tierklasse.\ \r\n
+comment1.params=feld
+comment1.target=boolean\ istAktiv(Feld)
+comment1.text=\r\n\ Entscheide,\ ob\ die\ Simulation\ weiterlaufen\ soll.\r\n\ @param\ true\ wenn\ mehr\ als\ eine\ Spezies\ existiert.\ \r\n
+comment2.params=schritt\ feld
+comment2.target=void\ zeigeStatus(int,\ Feld)
+comment2.text=\r\n\ Zeige\ den\ aktuellen\ Zustand\ des\ Feldes.\r\n\ @param\ schritt\ welcher\ Iterationsschritt\ ist\ dies.\r\n\ @param\ feld\ das\ Feld,\ das\ angezeigt\ werden\ soll.\r\n
+comment3.params=
+comment3.target=void\ zuruecksetzen()
+comment3.text=\r\n\ Bereite\ einen\ neuen\ Lauf\ vor.\r\n
+numComments=4

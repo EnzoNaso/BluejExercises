@@ -1,0 +1,14 @@
+#BlueJ class context
+comment0.params=
+comment0.target=FeldStatistik()
+comment0.text=\n\ Erzeuge\ ein\ FeldStatistik-Objekt.\n
+comment1.params=
+comment1.target=void\ zuruecksetzen()
+comment1.text=\n\ Verwerfe\ alle\ bisher\ gesammelten\ Daten;\ setze\ alle\ Z\u00E4hler\n\ auf\ null\ zur\u00FCck.\n
+comment2.params=tierklasse
+comment2.target=void\ erhoeheZaehler(java.lang.Class)
+comment2.text=\n\ Erh\u00F6he\ den\ Z\u00E4hler\ f\u00FCr\ eine\ Tierklasse.\n\ @param\ tierklasse\ Klasse\ der\ Tierart,\ f\u00FCr\ die\ erh\u00F6ht\ werden\ soll.\n
+comment3.params=
+comment3.target=void\ zaehlungBeendet()
+comment3.text=\n\ Signalisiere,\ dass\ eine\ Tierz\u00E4hlung\ beendet\ ist.\n
+numComments=4

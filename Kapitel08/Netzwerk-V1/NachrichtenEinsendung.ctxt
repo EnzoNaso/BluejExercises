@@ -1,0 +1,26 @@
+#BlueJ class context
+comment0.params=autor\ text
+comment0.target=NachrichtenEinsendung(java.lang.String,\ java.lang.String)
+comment0.text=\n\ Konstruktor\ f\u00FCr\ Objekte\ der\ Klasse\ NachrichtenEinsendung.\n\ \n\ @param\ autor\ \ \ \ der\ Benutzername\ des\ Einsenders.\n\ @param\ text\ \ \ \ \ \ der\ Text\ dieser\ Einsendung.\n
+comment1.params=
+comment1.target=void\ gefaellt()
+comment1.text=\n\ Halte\ fest,\ dass\ die\ Nachricht\ von\ einem\ Benutzer\ mit\ 'gef\u00E4llt'\ bewertet\ \n\ wurde.\n
+comment2.params=
+comment2.target=void\ gefaelltNicht()
+comment2.text=\n\ Halte\ fest,\ dass\ ein\ Benutzer\ seine\ 'gef\u00E4llt'-Bewertung\ zur\u00FCckgezogen\ hat.\n
+comment3.params=text
+comment3.target=void\ erfasseKommentar(java.lang.String)
+comment3.text=\n\ F\u00FCge\ der\ Einsendung\ einen\ Kommentar\ hinzu.\n\ \n\ @param\ text\ \ der\ neu\ hinzuzuf\u00FCgende\ Kommentar.\n
+comment4.params=
+comment4.target=java.lang.String\ gibText()
+comment4.text=\n\ Liefere\ den\ Text\ dieser\ Einsendung.\n\ \n\ @return\ den\ Text\ der\ Einsendung.\n
+comment5.params=
+comment5.target=long\ gibZeitstempel()
+comment5.text=\n\ Liefere\ die\ Zeit,\ zu\ der\ die\ Einsendung\ erstellt\ wurde.\n\ \n\ @return\ die\ Zeit,\ zu\ der\ die\ Einsendung\ erstellt\ wurde\ (als\ Systemzeit-Wert)..\n
+comment6.params=
+comment6.target=void\ anzeigen()
+comment6.text=\n\ Zeige\ die\ Details\ der\ Einsendung\ an.\n\ \n\ (Aktuell\ werden\ die\ Daten\ auf\ die\ Konsole\ ausgegeben,\ wodurch\ momentan\ die\ \n\ Anzeige\ im\ Webbrowser\ simuliert\ werden\ soll.)\n
+comment7.params=zeit
+comment7.target=java.lang.String\ zeitString(long)
+comment7.text=\n\ Erzeuge\ einen\ String,\ der\ einen\ in\ der\ Vergangenheit\ liegenden\ Zeitpunkt\ im\ \n\ Vergleich\ zur\ aktuellen\ Zeit\ beschreibt,\ also\ beispielsweise\ "vor\ 30\ Sekunden"\ \n\ oder\ "vor\ 7\ Minuten".\ Derzeit\ werden\ nur\ Sekunden\ und\ Minuten\ f\u00FCr\ den\ String\ \n\ verwendet.\n\ \n\ @param\ zeit\ \ der\ umzuwandelnde\ Zeitwert\ (in\ System-Millisekunden)\n\ @return\ \ \ \ \ \ eine\ relative\ Zeitbeschreibung\ f\u00FCr\ den\ gegebenen\ Zeitwert\n
+numComments=8

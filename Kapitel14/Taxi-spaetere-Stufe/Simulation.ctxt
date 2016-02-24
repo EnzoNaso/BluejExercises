@@ -1,0 +1,14 @@
+#BlueJ class context
+comment0.params=
+comment0.target=Simulation()
+comment0.text=\r\n\ Erzeuge\ die\ anf\u00E4nglichen\ Akteure\ der\ Simulation.\r\n
+comment1.params=
+comment1.target=void\ starten()
+comment1.text=\r\n\ F\u00FChre\ die\ Simulation\ f\u00FCr\ eine\ festgelegte\ Anzahl\r\n\ an\ Schritten\ durch.\r\n\ Mache\ nach\ jedem\ Schritt\ eine\ kurze\ Pause,\ damit\r\n\ die\ GUI\ mithalten\ kann.\r\n
+comment2.params=
+comment2.target=void\ schritt()
+comment2.text=\r\n\ F\u00FChre\ einen\ Schritt\ der\ Simulation\ durch.\r\n
+comment3.params=millisekunden
+comment3.target=void\ wait(int)
+comment3.text=\r\n\ Warte\ die\ angegebene\ Anzahl\ an\ Millisekunden.\r\n\ Eine\ einfache\ M\u00F6glichkeit,\ eine\ kleine\ Verz\u00F6gerung\r\n\ einzubauen.\r\n\ @param\ millisekunden\ die\ Anzahl\ der\ zu\ wartenden\r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ Millisekunden.\r\n
+numComments=4

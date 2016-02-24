@@ -1,0 +1,23 @@
+#BlueJ class context
+comment0.params=x\ y
+comment0.target=Position(int,\ int)
+comment0.text=\r\n\ Modellierung\ einer\ Position\ in\ einer\ Stadt.\r\n\ @param\ x\ Die\ x-Koordinate.\ Muss\ gr\u00F6\u00DFer\ gleich\ Null\ sein.\r\n\ @param\ y\ Die\ y-Koordinate.\ Muss\ gr\u00F6\u00DFer\ gleich\ Null\ sein.\r\n\ @throws\ IllegalArgumentException\ bei\ negativen\ Koordinaten.\r\n
+comment1.params=ziel
+comment1.target=Position\ naechstePosition(Position)
+comment1.text=\r\n\ Erzeuge\ die\ n\u00E4chste\ Position,\ die\ auf\ dem\ Weg\r\n\ zum\ Ziel\ besucht\ werden\ muss.\r\n\ @param\ ziel\ das\ Ziel.\r\n\ @return\ Eine\ Position\ in\ direkter\ Linie\ von\r\n\ \ \ \ \ \ \ \ \ dieser\ Position\ bis\ zum\ Ziel.\r\n
+comment2.params=ziel
+comment2.target=int\ schritteZu(Position)
+comment2.text=\r\n\ Berechne\ die\ Anzahl\ der\ Schritte,\ die\ von\ dieser\r\n\ Position\ zum\ angegebenen\ Ziel\ zu\ machen\ sind.\r\n\ @param\ ziel\ das\ gew\u00FCnschte\ Ziel.\r\n\ @return\ Die\ Anzahl\ der\ Schritte\ zum\ Ziel.\r\n
+comment3.params=jener
+comment3.target=boolean\ equals(java.lang.Object)
+comment3.text=\r\n\ Vergleiche\ mit\ jener\ Position\ auf\ Datengleichheit.\r\n\ @return\ true\ wenn\ diese\ Position\ gleich\ zu\ jener\r\n\ \ \ \ \ \ \ \ \ ist,\ false\ sonst.\r\n
+comment4.params=
+comment4.target=java.lang.String\ toString()
+comment4.text=\r\n\ @return\ Eine\ Darstellung\ dieser\ Position.\r\n
+comment5.params=
+comment5.target=int\ gibX()
+comment5.text=\r\n\ @return\ die\ x-Koordinate.\r\n
+comment6.params=
+comment6.target=int\ gibY()
+comment6.text=\r\n\ @return\ die\ y-Koordinate.\r\n
+numComments=7

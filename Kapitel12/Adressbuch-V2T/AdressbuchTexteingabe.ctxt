@@ -1,0 +1,23 @@
+#BlueJ class context
+comment0.params=buch
+comment0.target=AdressbuchTexteingabe(Adressbuch)
+comment0.text=\r\n\ Konstruktor\ f\u00FCr\ Objekte\ der\ Klasse\ AdressbuchTexteingabe.\r\n\ @param\ buch\ das\ Adressbuch,\ das\ manipuliert\ werden\ soll.\r\n
+comment1.params=
+comment1.target=void\ starten()
+comment1.text=\r\n\ Lies\ interaktiv\ Befehle\ vom\ Benutzer,\ die\ \r\n\ Interaktionen\ mit\ dem\ Adressbuch\ erm\u00F6glichen.\r\n\ Stoppe,\ wenn\ der\ Benutzer\ 'ende'\ eingibt.\r\n
+comment2.params=
+comment2.target=void\ neuerEintrag()
+comment2.text=\r\n\ F\u00FCge\ einen\ neuen\ Eintrag\ hinzu.\r\n
+comment3.params=
+comment3.target=void\ gibEintrag()
+comment3.text=\r\n\ Liefere\ den\ Eintrag\ zu\ einem\ Schl\u00FCssel.\r\n
+comment4.params=
+comment4.target=void\ sucheEintrag()
+comment4.text=\r\n\ Finde\ Eintr\u00E4ge\ mit\ passendem\ Pr\u00E4fix.\r\n
+comment5.params=
+comment5.target=void\ hilfe()
+comment5.text=\r\n\ Zeige\ die\ zur\ Verf\u00FCgung\ stehenden\ Befehle.\r\n
+comment6.params=
+comment6.target=void\ list()
+comment6.text=\r\n\ Gib\ den\ Inhalt\ des\ Adressbuchs\ aus.\r\n
+numComments=7

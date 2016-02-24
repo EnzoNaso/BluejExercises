@@ -1,0 +1,23 @@
+#BlueJ class context
+comment0.params=nummer\ name
+comment0.target=Artikel(int,\ java.lang.String)
+comment0.text=\r\n\ Konstruktor\ f\u00FCr\ Objekte\ der\ Klasse\ Artikel.\r\n\ Der\ Anfangsbestand\ ist\ Null.\r\n\ @param\ nummer\ Die\ Artikelnummer\ des\ Artikels.\r\n\ @param\ name\ Der\ Name\ des\ Artikels.\r\n
+comment1.params=
+comment1.target=int\ gibNummer()
+comment1.text=\r\n\ @return\ die\ Artikelnummer.\r\n
+comment2.params=
+comment2.target=java.lang.String\ gibName()
+comment2.text=\r\n\ @return\ den\ Artikelnamen.\r\n
+comment3.params=
+comment3.target=int\ gibBestand()
+comment3.text=\r\n\ @return\ den\ Bestand\ im\ Lager.\r\n
+comment4.params=
+comment4.target=java.lang.String\ toString()
+comment4.text=\r\n\ @return\ die\ Nummer,\ den\ Namen\ und\ den\ Lagerbestand\ als\ String.\r\n
+comment5.params=anzahl
+comment5.target=void\ erhoeheBestand(int)
+comment5.text=\r\n\ Erh\u00F6he\ den\ Lagerbestand\ dieses\ Artikels\ um\ den\ \r\n\ angegebenen\ Wert.\r\n\ @param\ anzahl\ Die\ Anzahl\ der\ zus\u00E4tzlichen\ Artikel.\r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ Dieser\ Wert\ muss\ gr\u00F6\u00DFer\ als\ Null\ sein.\r\n
+comment6.params=
+comment6.target=void\ verkaufeEinen()
+comment6.text=\r\n\ Verkaufe\ einen\ dieser\ Artikel.\r\n\ Ein\ Fehler\ wird\ gemeldet,\ wenn\ der\ Artikel\ nicht\ auf\r\n\ Lager\ ist.\r\n
+numComments=7

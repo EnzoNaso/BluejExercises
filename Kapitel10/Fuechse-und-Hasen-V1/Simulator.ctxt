@@ -1,0 +1,23 @@
+#BlueJ class context
+comment0.params=
+comment0.target=Simulator()
+comment0.text=\n\ Erzeuge\ ein\ Simulationsfeld\ mit\ einer\ Standardgr\u00F6\u00DFe.\n
+comment1.params=tiefe\ breite
+comment1.target=Simulator(int,\ int)
+comment1.text=\n\ Erzeuge\ ein\ Simulationsfeld\ mit\ der\ gegebenen\ Gr\u00F6\u00DFe.\n\ @param\ tiefe\ die\ Tiefe\ des\ Feldes\ (muss\ gr\u00F6\u00DFer\ als\ null\ sein).\n\ @param\ breite\ die\ Breite\ des\ Feldes\ (muss\ gr\u00F6\u00DFer\ als\ null\ sein).\n
+comment2.params=
+comment2.target=void\ starteLangeSimulation()
+comment2.text=\n\ Starte\ die\ Simulation\ vom\ aktuellen\ Zustand\ aus\ f\u00FCr\ einen\ l\u00E4ngeren\n\ Zeitraum\ (4000\ Schritte).\n
+comment3.params=schritte
+comment3.target=void\ simuliere(int)
+comment3.text=\n\ F\u00FChre\ vom\ aktuellen\ Zustand\ aus\ die\ angegebene\ Anzahl\ an\n\ Simulationsschritten\ durch.\n\ Brich\ vorzeitig\ ab,\ wenn\ die\ Simulation\ nicht\ mehr\ aktiv\ ist.\n\ @param\ schritte\ die\ Anzahl\ der\ auszuf\u00FChrenden\ Schritte.\n
+comment4.params=
+comment4.target=void\ simuliereEinenSchritt()
+comment4.text=\n\ F\u00FChre\ einen\ einzelnen\ Simulationsschritt\ aus\:\n\ Durchlaufe\ alle\ Feldpositionen\ und\ aktualisiere\ den\ \n\ Zustand\ jedes\ Fuchses\ und\ Hasen.\n
+comment5.params=
+comment5.target=void\ zuruecksetzen()
+comment5.text=\n\ Setze\ die\ Simulation\ an\ den\ Anfang\ zur\u00FCck.\n
+comment6.params=
+comment6.target=void\ bevoelkere()
+comment6.text=\n\ Bev\u00F6lkere\ das\ Feld\ mit\ F\u00FCchsen\ und\ Hasen.\n
+numComments=7

@@ -1,0 +1,14 @@
+#BlueJ class context
+comment0.params=
+comment0.target=Kundendienstsystem()
+comment0.text=\r\n\ Erzeuge\ ein\ Kundendienstsystem.\r\n
+comment1.params=
+comment1.target=void\ starten()
+comment1.text=\r\n\ Starte\ das\ System\ f\u00FCr\ den\ technischen\ Kundendienst.\r\n\ Es\ wird\ ein\ Begr\u00FC\u00DFungstext\ ausgegeben\ und\ anschlie\u00DFend\r\n\ ein\ Dialog\ mit\ dem\ Benutzer\ gef\u00FChrt,\ bis\ der\ Benutzer\r\n\ den\ Dialog\ beendet.\r\n
+comment2.params=
+comment2.target=void\ willkommenstextAusgeben()
+comment2.text=\r\n\ Gib\ einen\ Willkommenstext\ auf\ der\ Konsole\ aus.\r\n
+comment3.params=
+comment3.target=void\ abschiedstextAusgeben()
+comment3.text=\r\n\ Gib\ einen\ Abschiedstext\ auf\ der\ Konsole\ aus.\r\n
+numComments=4

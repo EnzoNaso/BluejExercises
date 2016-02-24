@@ -1,0 +1,17 @@
+#BlueJ class context
+comment0.params=
+comment0.target=Bildflaeche()
+comment0.text=\r\n\ Erzeuge\ eine\ neue,\ leere\ Bildfl\u00E4che.\r\n
+comment1.params=bild
+comment1.target=void\ setzeBild(Farbbild)
+comment1.text=\r\n\ Setze\ das\ Bild,\ das\ diese\ Bildfl\u00E4che\ anzeigen\ soll.\r\n\ \r\n\ @param\ bild\ das\ anzuzeigende\ Bild.\r\n
+comment2.params=
+comment2.target=void\ loeschen()
+comment2.text=\r\n\ L\u00F6sche\ die\ Bildfl\u00E4che.\r\n
+comment3.params=
+comment3.target=java.awt.Dimension\ getPreferredSize()
+comment3.text=\r\n\ Teile\ dem\ Layout-Manager\ mit,\ wie\ gro\u00DF\ diese\ Komponente\ sein\ soll.\r\n\ (Diese\ Methode\ wird\ vom\ Layout-Manager\ aufgerufen,\ um\r\n\ die\ Komponenten\ geeignet\ platzieren\ zu\ k\u00F6nnen.)\r\n\ \r\n\ @return\ Die\ bevorzugte\ Gr\u00F6\u00DFe\ (als\ Dimension)\ dieser\ Komponente.\r\n
+comment4.params=g
+comment4.target=void\ paintComponent(java.awt.Graphics)
+comment4.text=\r\n\ Diese\ Komponente\ soll\ erneut\ angezeigt\ werden.\ Kopiere\ das\r\n\ intern\ gehaltene\ Bild\ auf\ den\ Bildschirm.\r\n\ (Diese\ Methode\ wird\ von\ Swing\ aus\ jedesmal\ aufgerufen,\ wenn\r\n\ diese\ Komponente\ angezeigt\ werden\ soll.)\r\n\ \r\n\ @param\ g\ Der\ Grafik-Kontext,\ mit\ dem\ auf\ dieser\ Komponente\r\n\ gezeichnet\ werden\ kann.\r\n
+numComments=5

@@ -1,0 +1,23 @@
+#BlueJ class context
+comment0.params=unternehmen\ position
+comment0.target=Grossraumtaxi(Taxiunternehmen,\ Position)
+comment0.text=\r\n\ Konstruktor\ f\u00FCr\ Objekte\ der\ Klasse\ Shuttle.\r\n\ @param\ unternehmen\ das\ Taxi-Unternehmen.\ Darf\ nicht\ null\ sein.\r\n\ @param\ position\ die\ Startposition\ des\ Fahrzeugs.\ Darf\ nicht\ null\ sein.\r\n\ @throws\ NullPointerException\ Wenn\ Unternehmen\ oder\ Position\ null\ sind.\r\n
+comment1.params=
+comment1.target=void\ agiere()
+comment1.text=\r\n\ F\u00FChre\ die\ Aktionen\ eines\ Gro\u00DFraumtaxis\ aus.\r\n
+comment2.params=
+comment2.target=boolean\ istFrei()
+comment2.text=\r\n\ Ist\ dieses\ Fahrzeug\ frei?\r\n\ @return\ ob\ dieses\ Fahrzeug\ frei\ ist.\r\n
+comment3.params=position
+comment3.target=void\ setzeAbholpunkt(Position)
+comment3.text=\r\n\ Setze\ einen\ Abholpunkt.\r\n\ @param\ position\ der\ Abholpunkt.\r\n
+comment4.params=fahrgast
+comment4.target=void\ aufnehmen(Fahrgast)
+comment4.text=\r\n\ Nimm\ einen\ Fahrgast\ auf.\r\n\ F\u00FCge\ sein\ Ziel\ zur\ Liste\ der\ Ziele\ hinzu.\r\n\ @param\ fahrgast\ der\ aufgenommene\ Fahrgast.\r\n
+comment5.params=
+comment5.target=void\ waehleNaechstesZiel()
+comment5.text=\r\n\ W\u00E4hle\ das\ n\u00E4chste\ Ziel,\ abh\u00E4ngig\ von\ der\ Liste\r\n\ der\ m\u00F6glichen\ Ziele.\r\n
+comment6.params=
+comment6.target=void\ fahrgastAbsetzen()
+comment6.text=\r\n\ Setze\ einen\ Fahrgast\ ab,\ dessen\ Ziel\ die\ aktuelle\r\n\ Position\ ist.\r\n
+numComments=7

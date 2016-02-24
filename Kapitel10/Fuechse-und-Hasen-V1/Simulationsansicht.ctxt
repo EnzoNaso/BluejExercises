@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.params=hoehe\ breite
+comment0.target=Simulationsansicht(int,\ int)
+comment0.text=\n\ Erzeuge\ eine\ Ansicht\ mit\ der\ gegebenen\ Breite\ und\ H\u00F6he.\n\ @param\ hoehe\ Die\ H\u00F6he\ der\ Simulation.\n\ @param\ breite\ Die\ Breite\ der\ Simulation.\n
+comment1.params=tierklasse\ farbe
+comment1.target=void\ setzeFarbe(java.lang.Class,\ java.awt.Color)
+comment1.text=\n\ Definiere\ eine\ Farbe\ f\u00FCr\ die\ gegebene\ Tierklasse.\n\ @param\ tierklasse\ Das\ Klassenobjekt\ der\ Tierklasse.\n\ @param\ farbe\ Die\ zu\ benutzende\ Farbe\ f\u00FCr\ die\ Tierklasse.\ \n
+comment2.params=tierklasse
+comment2.target=java.awt.Color\ gibFarbe(java.lang.Class)
+comment2.text=\n\ @return\ die\ definierte\ Farbe\ f\u00FCr\ die\ gegebene\ Tierklasse.\n
+numComments=3

@@ -1,0 +1,26 @@
+#BlueJ class context
+comment0.params=neueFuechse
+comment0.target=void\ jage(java.util.List)
+comment0.text=\n\ Das\ ist,\ was\ ein\ Fuchs\ die\ meiste\ Zeit\ tut\:\ er\ jagt\ Hasen.\n\ Dabei\ kann\ er\ Nachwuchs\ geb\u00E4ren,\ vor\ Hunger\ sterben\ oder\n\ an\ Altersschw\u00E4che.\n\ @param\ neueFuechse\ eine\ Liste\ zum\ Zur\u00FCckliefern\ neugeborener\ F\u00FCchse.\n
+comment1.params=
+comment1.target=boolean\ istLebendig()
+comment1.text=\n\ Pr\u00FCfe,\ ob\ dieser\ Fuchs\ noch\ lebendig\ ist.\n\ @return\ true\ wenn\ dieser\ Fuchs\ noch\ lebt.\n
+comment2.params=
+comment2.target=void\ alterErhoehen()
+comment2.text=\n\ Erh\u00F6he\ das\ Alter\ dieses\ Fuchses.\ Dies\ kann\ zu\ seinem\n\ Tod\ f\u00FChren.\n
+comment3.params=
+comment3.target=void\ hungerVergroessern()
+comment3.text=\n\ Vergr\u00F6\u00DFere\ den\ Hunger\ dieses\ Fuchses.\ Dies\ kann\ zu\ seinem\n\ Tode\ f\u00FChren.\n
+comment4.params=neueFuechse
+comment4.target=void\ gebaereNachwuchs(java.util.List)
+comment4.text=\n\ Pr\u00FCfe,\ ob\ dieser\ Fuchs\ in\ diesem\ Schritt\ geb\u00E4ren\ kann.\n\ Neugeborene\ kommen\ in\ freie\ Nachbarpositionen.\n\ @param\ neueFuechse\ eine\ Liste\ zum\ Zur\u00FCckliefern\ der\ neugeborenen\ F\u00FCchse.\n
+comment5.params=
+comment5.target=int\ traechtig()
+comment5.text=\n\ Erzeuge\ eine\ Zahl\ f\u00FCr\ die\ Wurfgroesse,\ wenn\ der\ Fuchs\n\ gebaeren\ kann.\n\ @return\ \ Wurfgroesse\ (kann\ null\ sein).\n
+comment6.params=
+comment6.target=boolean\ kannGebaeren()
+comment6.text=\n\ Ein\ Fuchs\ kann\ geb\u00E4ren,\ wenn\ er\ das\ geb\u00E4rf\u00E4hige\n\ Alter\ erreicht\ hat.\n
+comment7.params=
+comment7.target=void\ sterben()
+comment7.text=\n\ Anzeigen,\ dass\ der\ Fuchs\ nicht\ mehr\ laenger\ lebendig\ ist.\n\ Fuchs\ aus\ dem\ Feld\ entfernen.\n
+numComments=8

@@ -1,0 +1,27 @@
+#BlueJ class context
+comment0.params=buchautor\ buchtitel\ seiten
+comment0.target=Buch(java.lang.String,\ java.lang.String,\ int)
+comment0.text=\r\n\ Setze\ den\ Autor\ und\ den\ Titel,\ wenn\ ein\ Exemplar\ erzeugt\ wird.\r\n
+comment1.params=
+comment1.target=java.lang.String\ gibAutor()
+comment10.params=
+comment10.target=void\ ausleihen()
+comment11.params=
+comment11.target=void\ detailsAusgeben()
+comment2.params=
+comment2.target=java.lang.String\ gibTitel()
+comment3.params=
+comment3.target=int\ gibSeiten()
+comment4.params=
+comment4.target=java.lang.String\ gibRefNummer()
+comment5.params=
+comment5.target=int\ gibAusgeliehen()
+comment6.params=
+comment6.target=boolean\ istKursText()
+comment7.params=refNummer
+comment7.target=void\ setzeRefNummer(java.lang.String)
+comment8.params=
+comment8.target=void\ autorAusgeben()
+comment9.params=
+comment9.target=void\ titelAusgeben()
+numComments=12

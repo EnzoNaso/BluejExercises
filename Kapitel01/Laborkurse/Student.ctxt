@@ -1,0 +1,26 @@
+#BlueJ class context
+comment0.params=vollerName\ matrNr
+comment0.target=Student(java.lang.String,\ java.lang.String)
+comment0.text=\r\n\ Erzeuge\ einen\ neuen\ Studenten\ mit\ Name\ und\ Matrikelnummer.\r\n
+comment1.params=
+comment1.target=java.lang.String\ gibName()
+comment1.text=\r\n\ Liefere\ den\ vollen\ Namen\ dieses\ Studenten.\r\n
+comment2.params=neuerName
+comment2.target=void\ nameAendern(java.lang.String)
+comment2.text=\r\n\ Trage\ einen\ neuen\ Namen\ ein.\r\n
+comment3.params=
+comment3.target=java.lang.String\ gibMatrikelnummer()
+comment3.text=\r\n\ Liefere\ die\ Matrikelnummer\ dieses\ Studenten.\r\n
+comment4.params=weitereScheine
+comment4.target=void\ erhoeheScheinanzahl(int)
+comment4.text=\r\n\ Erh\u00F6he\ die\ Anzahl\ der\ erworbenen\ Scheine.\r\n
+comment5.params=
+comment5.target=int\ gibScheinanzahl()
+comment5.text=\r\n\ Liefere\ die\ Anzahl\ der\ bereits\ erworbenen\ Scheine.\r\n
+comment6.params=
+comment6.target=java.lang.String\ gibLoginName()
+comment6.text=\r\n\ Liefere\ den\ Login-Namen.\ Der\ Login-Name\ ist\ eine\ Kombination\ der\r\n\ ersten\ vier\ Buchstaben\ des\ Namens\ mit\ den\ ersten\ drei\ Ziffern\ der\r\n\ Matrikelnummer.\r\n
+comment7.params=
+comment7.target=void\ ausgeben()
+comment7.text=\r\n\ Gib\ Name,\ Matrikelnummer\ und\ Scheine\ auf\ der\ Konsole\ aus.\r\n
+numComments=8

@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.params=unternehmen
+comment0.target=Fahrgastquelle(Taxiunternehmen)
+comment0.text=\r\n\ Konstruktor\ f\u00FCr\ Objekte\ der\ Klasse\ FahrgastQuelle.\r\n\ @param\ unternehmen\ das\ gew\u00E4hlte\ Unternehmen.\ Darf\ nicht\ null\ sein.\r\n\ @throws\ NullPointerException\ wenn\ unternehmen\ null\ ist.\r\n
+comment1.params=
+comment1.target=boolean\ erbitteAbholung()
+comment1.text=\r\n\ Lasse\ diese\ Quelle\ einen\ neuen\ Fahrgast\ erzeugen\r\n\ und\ rufe\ beim\ Unternehmen\ ein\ Taxi\ f\u00FCr\ ihn.\r\n\ @return\ true\ wenn\ die\ Anfrage\ erfolgreich\ ist,\ false\ sonst.\r\n
+comment2.params=
+comment2.target=Fahrgast\ erzeugeFahrgast()
+comment2.text=\r\n\ Erzeuge\ einen\ neuen\ Fahrgast.\r\n\ @return\ den\ erzeugten\ Fahrgast.\r\n
+numComments=3

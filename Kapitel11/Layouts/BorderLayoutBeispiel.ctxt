@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.params=
+comment0.target=BorderLayoutBeispiel()
+comment0.text=\r\n\ Konstruktor\ f\u00FCr\ Objekte\ der\ Klasse\ BorderLayoutBeispiel\r\n
+comment1.params=
+comment1.target=void\ fensterErzeugen()
+comment1.text=\r\n\ F\u00FCge\ f\u00FCnf\ Komponenten\ in\ die\ verf\u00FCgbaren\ Positionen\ ein.\r\n
+numComments=2

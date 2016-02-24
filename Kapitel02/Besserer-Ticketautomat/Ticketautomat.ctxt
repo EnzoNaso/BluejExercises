@@ -1,0 +1,22 @@
+#BlueJ class context
+comment0.params=ticketpreis
+comment0.target=Ticketautomat(int)
+comment0.text=\r\n\ Erzeuge\ einen\ Automaten,\ der\ Tickets\ zum\ angegebenen\ Preis\r\n\ (in\ Cent)\ ausgibt.\r\n
+comment1.params=
+comment1.target=int\ gibPreis()
+comment1.text=\r\n\ Liefere\ den\ Preis\ eines\ Tickets\ dieses\ Automaten\ (in\ Cent).\r\n
+comment2.params=
+comment2.target=int\ gibBisherGezahltenBetrag()
+comment2.text=\r\n\ Liefere\ die\ H\u00F6he\ des\ Betrags,\ der\ f\u00FCr\ das\ n\u00E4chste\ Ticket\ bereits\r\n\ eingeworfen\ wurde.\r\n
+comment3.params=betrag
+comment3.target=void\ geldEinwerfen(int)
+comment3.text=\r\n\ Nimm\ den\ angegebenen\ Betrag\ (in\ Cent)\ als\ Anzahlung\ f\u00FCr\ das\ \r\n\ n\u00E4chste\ Ticket.\ Pr\u00FCfe,\ ob\ der\ Betrag\ sinnvoll\ ist.\r\n
+comment4.params=
+comment4.target=void\ ticketDrucken()
+comment4.text=\r\n\ Drucke\ ein\ Ticket,\ wenn\ gen\u00FCgend\ Geld\ eingeworfen\ wurde,\ und\ \r\n\ ziehe\ den\ Ticketpreis\ vom\ bisher\ gezahlten\ Betrag\ ab.\ Gib\ eine\ \r\n\ Fehlermeldung\ aus,\ falls\ noch\ Geld\ f\u00FCr\ ein\ Ticket\ fehlt.\r\n
+comment5.params=
+comment5.target=int\ wechselgeldAuszahlen()
+comment5.text=\r\n\ Gib\ das\ Wechselgeld\ bzw.\ den\ bisher\ gezahlten\ Betrag\ zur\u00FCck.\r\n\ Setze\ den\ bisher\ gezahlten\ Betrag\ zur\u00FCck\ auf\ 0.\r\n
+comment6.params=
+comment6.target=int\ entleeren()
+numComments=7

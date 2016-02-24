@@ -1,0 +1,14 @@
+#BlueJ class context
+comment0.params=
+comment0.target=RecheneinheitTester()
+comment0.text=\r\n\ Konstruktor\ f\u00FCr\ Objekte\ der\ Klasse\ RecheneinheitTester.\r\n
+comment1.params=
+comment1.target=void\ allesTesten()
+comment1.text=\r\n\ Alles\ testen.\r\n
+comment2.params=
+comment2.target=int\ testPlus()
+comment2.text=\r\n\ Teste\ die\ Plus-Operation\ der\ Recheneinheit.\r\n\ @return\ das\ Ergebnis\ der\ Berechnung\ 3+4.\r\n
+comment3.params=
+comment3.target=int\ testMinus()
+comment3.text=\r\n\ Teste\ die\ Minus-Operation\ der\ Recheneinheit.\r\n\ @return\ das\ Ergebnis\ der\ Berechnung\ 9\ -\ 4.\r\n
+numComments=4

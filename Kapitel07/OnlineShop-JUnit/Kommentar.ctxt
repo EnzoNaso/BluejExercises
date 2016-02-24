@@ -1,0 +1,23 @@
+#BlueJ class context
+comment0.params=autor\ text\ bewertung
+comment0.target=Kommentar(java.lang.String,\ java.lang.String,\ int)
+comment0.text=\r\n\ Erzeuge\ einen\ Kommentar\ mit\ allen\ notwendigen\ Angaben.\ Das\ anf\u00E4ngliche\ Stimmenverh\u00E4ltnis\ ist\ 0.\r\n
+comment1.params=
+comment1.target=void\ zustimmen()
+comment1.text=\r\n\ Zeige\ an,\ dass\ der\ Kommentar\ hilfreich\ ist\ ('zustimmen').\ Wird\ verwendet,\ wenn\ ein\ Besucher\ nach\ dem\r\n\ Lesen\ der\ "War\ dieser\ Kommentar\ hilfreich?"-Frage\ auf\ die'Ja'-Schaltfl\u00E4che\ klickt\ .\r\n
+comment2.params=
+comment2.target=void\ ablehnen()
+comment2.text=\r\n\ Zeige\ an,\ dass\ der\ Kommentar\ nicht\ hilfreich\ ist\ ('ablehnen').\ Wird\ verwendet,\ wenn\ ein\ Besucher\ nach\ dem\r\n\ Lesen\ der\ "War\ dieser\ Kommentar\ hilfreich?"-Frage\ auf\ die'Nein'-Schaltfl\u00E4che\ klickt\ .\r\n
+comment3.params=
+comment3.target=java.lang.String\ gibAutor()
+comment3.text=\r\n\ Liefere\ den\ Autor\ des\ Kommentars.\r\n
+comment4.params=
+comment4.target=int\ gibBewertung()
+comment4.text=\r\n\ Liefere\ die\ Bewertung\ des\ Kommentars.\r\n
+comment5.params=
+comment5.target=int\ gibStimmenAnzahl()
+comment5.text=\r\n\ Liefere\ das\ Stimmenverh\u00E4ltnis\ (Verh\u00F6ltnis\ von\ zustimmenden\ zu\ ablehnenden\ Stimmen).\r\n
+comment6.params=
+comment6.target=java.lang.String\ gibAlleDetails()
+comment6.text=\r\n\ Liefere\ den\ vollst\u00E4ndigen\ Text\ und\ alle\ Angaben\ zu\ dem\ Kommentar,\ einschlie\u00DFlich\r\n\ des\ Kommentartextes,\ des\ Autors\ und\ der\ Bewertung.\r\n
+numComments=7

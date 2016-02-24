@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.params=
+comment0.target=BoxLayoutBeispiel()
+comment0.text=\r\n\ Konstruktor\ f\u00FCr\ Objekte\ der\ Klasse\ BoxLayoutBeispiel\r\n
+comment1.params=
+comment1.target=void\ fensterErzeugen()
+comment1.text=\r\n\ Erzeuge\ ein\ BoxLayout\ and\ f\u00FCge\ f\u00FCnf\ Komponenten\ ein.\r\n
+numComments=2

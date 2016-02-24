@@ -1,0 +1,20 @@
+#BlueJ class context
+comment0.params=zeile\ spalte
+comment0.target=Position(int,\ int)
+comment0.text=\r\n\ Repr\u00E4sentiere\ eine\ Zeile\ und\ eine\ Spalte.\r\n\ @param\ zeile\ die\ Zeile.\r\n\ @param\ spalte\ die\ Spalte.\r\n
+comment1.params=obj
+comment1.target=boolean\ equals(java.lang.Object)
+comment1.text=\r\n\ Pr\u00FCfung\ auf\ Datengleichheit.\r\n
+comment2.params=
+comment2.target=java.lang.String\ toString()
+comment2.text=\r\n\ Liefere\ einen\ String\ in\ der\ Form\ 'Zeile,Spalte'\r\n\ @return\ eine\ Stringdarstellung\ dieser\ Position.\r\n
+comment3.params=
+comment3.target=int\ hashCode()
+comment3.text=\r\n\ Benutze\ die\ 16\ h\u00F6herwertigen\ Bits\ f\u00FCr\ den\ den\ Zeilenwert\r\n\ und\ die\ 16\ niederwertigen\ Bits\ f\u00FCr\ den\ Spaltenwert.\r\n\ Au\u00DFer\ f\u00FCr\ sehr\ gro\u00DFe\ Felder\ sollte\ dies\ einen\ eindeutigen\r\n\ Hashwert\ f\u00FCr\ jedes\ Zeile-Spalte-Paar\ geben.\r\n\ @return\ einen\ Hash-Code\ f\u00FCr\ diese\ Position.\r\n
+comment4.params=
+comment4.target=int\ gibZeile()
+comment4.text=\r\n\ @return\ Die\ Zeile.\r\n
+comment5.params=
+comment5.target=int\ gibSpalte()
+comment5.text=\r\n\ @return\ Die\ Spalte.\r\n
+numComments=6

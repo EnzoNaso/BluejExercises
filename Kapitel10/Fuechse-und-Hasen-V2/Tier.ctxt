@@ -1,0 +1,23 @@
+#BlueJ class context
+comment0.params=feld\ position
+comment0.target=Tier(Feld,\ Position)
+comment0.text=\r\n\ Erzeuge\ ein\ neues\ Tier\ an\ der\ gegebenen\ Position\ im\ Feld.\r\n\ \r\n\ @param\ feld\ Das\ aktuelle\ belegte\ Feld\r\n\ @param\ position\ Die\ Position\ im\ Feld\r\n
+comment1.params=neueTiere
+comment1.target=void\ agiere(java.util.List)
+comment1.text=\r\n\ Lasse\ dieses\ Tier\ agieren\ -\ es\ soll\ das\ tun,\ was\r\n\ es\ tun\ muss\ oder\ m\u00F6chte.\r\n\ @param\ neueTiere\ eine\ Liste\ zum\ Aufnehmen\ neuer\ Tiere.\r\n
+comment2.params=
+comment2.target=boolean\ istLebendig()
+comment2.text=\r\n\ Pr\u00FCfe,\ ob\ dieses\ Tier\ noch\ lebendig\ ist.\r\n\ @return\ true\ wenn\ dieses\ Tier\ noch\ lebendig\ ist.\r\n
+comment3.params=
+comment3.target=void\ sterben()
+comment3.text=\r\n\ Anzeigen,\ dass\ das\ Tier\ nicht\ mehr\ laenger\ lebendig\ ist\r\n\ Es\ wird\ aus\ dem\ Feld\ entfernt.\r\n
+comment4.params=
+comment4.target=Position\ gibPosition()
+comment4.text=\r\n\ Liefere\ die\ Position\ dieses\ Tieres.\r\n\ @return\ die\ Position\ dieses\ Tieres.\r\n
+comment5.params=neuePosition
+comment5.target=void\ setzePosition(Position)
+comment5.text=\r\n\ Setze\ das\ Tier\ auf\ die\ gegebene\ Position\ im\ aktuellen\ Feld.\r\n\ @param\ neuePosition\ die\ neue\ Position\ des\ Tieres.\r\n
+comment6.params=
+comment6.target=Feld\ gibFeld()
+comment6.text=\r\n\ Liefere\ das\ Feld\ des\ Tieres.\r\n\ @return\ das\ Feld\ des\ Tieres.\r\n
+numComments=7

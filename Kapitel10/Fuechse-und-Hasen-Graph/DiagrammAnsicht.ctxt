@@ -1,0 +1,20 @@
+#BlueJ class context
+comment0.params=breite\ hoehe\ startMax
+comment0.target=DiagrammAnsicht(int,\ int,\ int)
+comment0.text=\r\n\ Konstruktor.\r\n\ \r\n\ @param\ breite\ die\ Breite\ des\ Plotterfensters(in\ Pixel).\r\n\ @param\ hoehe\ die\ H\u00F6he\ des\ Plotterfensters(in\ Pixel).\r\n\ @param\ startMax\ der\ anf\u00E4ngliche\ Maximalwert\ f\u00FCr\ die\ y-Achse.\r\n
+comment1.params=tierklasse\ farbe
+comment1.target=void\ setzeFarbe(java.lang.Class,\ java.awt.Color)
+comment1.text=\r\n\ Definiere\ eine\ Farbe\ f\u00FCr\ die\ gegebene\ Tierklasse.\r\n\ @param\ tierklasse\ Das\ Klassenobjekt\ der\ Tierklasse.\r\n\ @param\ farbe\ Die\ zu\ benutzende\ Farbe\ f\u00FCr\ die\ Tierklasse.\ \r\n
+comment2.params=schritt\ feld
+comment2.target=void\ zeigeStatus(int,\ Feld)
+comment2.text=\r\n\ Zeige\ den\ aktuellen\ Zustand\ des\ Feldes.\ Der\ Status\ wird\ durch\ einen\ Liniengraphen\ f\u00FCr\ \r\n\ zwei\ Klassen\ im\ Feld\ dargestellt.\ Diese\ Ansicht\ funktioniert\ auf\ dem\ aktuellen\ Stand\ nur\ f\u00FCr\r\n\ genau\ zwei\ Klassen\ (nicht\ mehr\ und\ nicht\ weniger).\ Wenn\ das\ Feld\ mehr\ als\ zwei\ unterschiedliche\r\n\ Tierspezies\ enth\u00E4lt,\ werden\ dennoch\ nur\ zwei\ Klassen\ dargestellt.\r\n\ \r\n\ @param\ schritt\ welcher\ Iterationsschritt\ ist\ dies.\r\n\ @param\ feld\ das\ Feld,\ das\ angezeigt\ werden\ soll.\r\n
+comment3.params=feld
+comment3.target=boolean\ istAktiv(Feld)
+comment3.text=\r\n\ Entscheide,\ ob\ die\ Simulation\ weiterlaufen\ soll.\r\n\ @return\ true\ wenn\ noch\ mehr\ als\ eine\ Spezies\ lebendig\ ist.\r\n
+comment4.params=
+comment4.target=void\ zuruecksetzen()
+comment4.text=\r\n\ Bereite\ einen\ neuen\ Lauf\ vor.\r\n
+comment5.params=breite\ hoehe\ startMax
+comment5.target=javax.swing.JFrame\ erzeugeFenster(int,\ int,\ int)
+comment5.text=\r\n\ Bereite\ das\ Fenster\ f\u00FCr\ die\ Darstellung\ des\ Graphen\ vor.\r\n
+numComments=6

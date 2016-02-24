@@ -1,0 +1,20 @@
+#BlueJ class context
+comment0.params=zufaelligesAlter\ feld\ position
+comment0.target=Hase(boolean,\ Feld,\ Position)
+comment0.text=\r\n\ Erzeuge\ einen\ neuen\ Hasen.\ Ein\ neuer\ Hase\ kann\ das\ Alter\ 0\ \r\n(neu\ geboren)\ oder\ ein\ zuf\u00E4lliges\ Alter\ haben.\r\n\r\n\ @param\ zufaelligesAlter\ soll\ der\ Hase\ ein\ zuf\u00E4lliges\ Alter\ haben?\r\n\ @param\ feld\ Das\ aktuelle\ belegte\ Feld\r\n\ @param\ position\ Die\ Position\ im\ Feld\r\n
+comment1.params=neueHasen
+comment1.target=void\ agiere(java.util.List)
+comment1.text=\r\n\ Das\ ist\ was\ ein\ Hase\ die\ meiste\ Zeit\ tut\ -\ er\ l\u00E4uft\ herum.\r\n\ Manchmal\ geb\u00E4rt\ er\ Nachwuchs\ und\ irgendwann\ stirbt\ er\r\n\ an\ Altersschw\u00E4che.\r\n\ @param\ neueHasen\ eine\ Liste\ zum\ Zur\u00FCckliefern\ der\ neu\ geborenen\ Hasen.\r\n
+comment2.params=
+comment2.target=void\ alterErhoehen()
+comment2.text=\r\n\ Erh\u00F6he\ das\ Alter.\ \r\n\ Dies\ kann\ zum\ Tod\ des\ Hasen\ f\u00FChren.\r\n
+comment3.params=neueHasen
+comment3.target=void\ gebaereNachwuchs(java.util.List)
+comment3.text=\r\n\ Pr\u00FCfe,\ ob\ dieser\ Hase\ in\ diesem\ Schritt\ geb\u00E4ren\ kann.\r\n\ Neugeborene\ kommen\ in\ freie\ Nachbarpositionen.\r\n\ @param\ neueHasen\ eine\ Liste\ zum\ Zur\u00FCckliefern\ der\ neu\ geborenen\ Hasen.\r\n
+comment4.params=
+comment4.target=int\ traechtig()
+comment4.text=\r\n\ Erzeuge\ eine\ Zahl\ f\u00FCr\ die\ Wurfgroesse,\ wenn\ der\ Hase\r\n\ gebaeren\ kann.\r\n\ @return\ \ Wurfgroesse\ (kann\ Null\ sein).\r\n
+comment5.params=
+comment5.target=boolean\ kannGebaeren()
+comment5.text=\r\n\ Ein\ Hase\ kann\ geb\u00E4ren,\ wenn\ er\ das\ geb\u00E4rf\u00E4hige\r\n\ Alter\ erreicht\ hat.\r\n
+numComments=6

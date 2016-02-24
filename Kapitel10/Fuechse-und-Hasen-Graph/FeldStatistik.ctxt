@@ -1,0 +1,26 @@
+#BlueJ class context
+comment0.params=
+comment0.target=FeldStatistik()
+comment0.text=\r\n\ Erzeuge\ ein\ FeldStatistik-Objekt.\r\n
+comment1.params=feld
+comment1.target=java.lang.String\ gibBewohnerInfo(Feld)
+comment1.text=\r\n\ Liefere\ Informationen\ \u00FCber\ die\ Bewohner\ im\ Feld.\r\n\ @return\ Eine\ Beschreibung,\ welche\ Tiere\ das\r\n\ \ \ \ \ \ \ \ \ \ Feld\ bev\u00F6lkern.\r\n
+comment2.params=feld\ schluessel
+comment2.target=int\ gibBewohnerAnzahl(Feld,\ java.lang.Class)
+comment2.text=\r\n\ Liefere\ die\ Anzahl\ der\ Individuen\ in\ der\ Population\ einer\ gegebenen\ Klasse.\r\n\ @return\ \ ein\ int-Wert\ mit\ der\ Anzahl\ f\u00FCr\ diese\ Klasse.\r\n
+comment3.params=
+comment3.target=void\ zuruecksetzen()
+comment3.text=\r\n\ Verwerfe\ alle\ bisher\ gesammelten\ Daten;\ setze\ alle\ Z\u00E4hler\r\n\ auf\ Null\ zur\u00FCck.\r\n
+comment4.params=tierklasse
+comment4.target=void\ erhoeheZaehler(java.lang.Class)
+comment4.text=\r\n\ Erh\u00F6he\ den\ Z\u00E4hler\ f\u00FCr\ eine\ Tierklasse.\r\n\ @param\ tierklasse\ Klasse\ der\ Tierart,\ f\u00FCr\ die\ erh\u00F6ht\ werden\ soll.\r\n
+comment5.params=
+comment5.target=void\ zaehlungBeendet()
+comment5.text=\r\n\ Signalisiere,\ dass\ eine\ Tierz\u00E4hlung\ beendet\ ist.\r\n
+comment6.params=feld
+comment6.target=boolean\ istAktiv(Feld)
+comment6.text=\r\n\ Stelle\ fest,\ ob\ die\ Simulation\ noch\ aktiv\ ist,\ also\r\n\ ob\ sie\ weiterhin\ laufen\ sollte.\r\n\ @return\ true\ wenn\ noch\ mehr\ als\ eine\ Spezies\ lebt.\r\n
+comment7.params=feld
+comment7.target=void\ ermittleZaehlerstaende(Feld)
+comment7.text=\r\n\ Erzeuge\ Z\u00E4hler\ f\u00FCr\ die\ Anzahl\ der\ F\u00FCchse\ und\ Hasen.\r\n\ Diese\ werden\ nicht\ st\u00E4ndig\ aktuell\ gehalten,\ w\u00E4hrend\r\n\ F\u00FCchse\ und\ Hasen\ in\ das\ Feld\ gesetzt\ werden,\ sondern\r\n\ jeweils\ bei\ der\ Abfrage\ der\ Z\u00E4hlerst\u00E4nde\ berechnet.\r\n\ @param\ feld\ das\ Feld,\ f\u00FCr\ das\ die\ Statistik\ erstellt\r\n\ \ \ \ \ \ \ \ \ \ \ \ \ werden\ soll.\r\n
+numComments=8

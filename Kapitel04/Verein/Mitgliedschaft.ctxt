@@ -1,0 +1,17 @@
+#BlueJ class context
+comment0.params=name\ monat\ jahr
+comment0.target=Mitgliedschaft(java.lang.String,\ int,\ int)
+comment0.text=\r\n\ Konstruktor\ f\u00FCr\ Objekte\ der\ Klasse\ Mitgliedschaft.\r\n\ @param\ name\ der\ Name\ des\ Mitglieds.\r\n\ @param\ monat\ der\ Monat\ des\ Beitritts.\ (1\ ...\ 12)\r\n\ @param\ jahr\ das\ Jahr\ des\ Beitritts.\r\n
+comment1.params=
+comment1.target=java.lang.String\ gibName()
+comment1.text=\r\n\ @return\ den\ Namen\ des\ Mitglieds.\r\n
+comment2.params=
+comment2.target=int\ gibMonat()
+comment2.text=\r\n\ @return\ den\ Monat\ des\ Beitritts.\r\n\ \ \ \ \ \ \ \ \ Ein\ Wert\ aus\ dem\ Bereich\ 1\ ...\ 12\r\n
+comment3.params=
+comment3.target=int\ gibJahr()
+comment3.text=\r\n\ @return\ Das\ Jahr\ des\ Beitritts.\r\n
+comment4.params=
+comment4.target=java.lang.String\ toString()
+comment4.text=\r\n\ @return\ Eine\ String-Darstellung\ dieser\ Mitgliedschaft.\r\n
+numComments=5

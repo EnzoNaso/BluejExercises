@@ -1,0 +1,20 @@
+#BlueJ class context
+comment0.params=abholpunkt\ ziel
+comment0.target=Fahrgast(Position,\ Position)
+comment0.text=\r\n\ Konstruktor\ f\u00FCr\ Objekte\ der\ Klasse\ Fahrgast.\r\n\ @param\ abholpunkt\ der\ Abholpunkt,\ darf\ nicht\ null\ sein.\r\n\ @param\ ziel\ die\ Zielposition,\ darf\ nicht\ null\ sein.\r\n\ @throws\ NullPointerException\ Wenn\ eine\ der\ Positionen\ null\ ist.\r\n
+comment1.params=
+comment1.target=java.lang.String\ toString()
+comment1.text=\r\n\ @return\ eine\ String-Darstellung\ dieser\ Person.\r\n
+comment2.params=
+comment2.target=java.awt.Image\ gibGrafik()
+comment2.text=\r\n\ @return\ die\ Grafik\ f\u00FCr\ die\ Anzeige\ in\ der\ GUI.\r\n
+comment3.params=
+comment3.target=Position\ gibPosition()
+comment3.text=\r\n\ @return\ die\ aktuelle\ Position\ dieses\ Fahrgastes.\r\n
+comment4.params=
+comment4.target=Position\ gibAbholpunkt()
+comment4.text=\r\n\ @return\ den\ Abholpunkt.\r\n
+comment5.params=
+comment5.target=Position\ gibZiel()
+comment5.text=\r\n\ @return\ das\ Ziel.\r\n
+numComments=6

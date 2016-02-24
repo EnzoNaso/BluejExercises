@@ -1,0 +1,23 @@
+#BlueJ class context
+comment0.params=stadt
+comment0.target=Taxiunternehmen(Stadt)
+comment0.text=\r\n\ @param\ stadt\ die\ Stadt.\r\n
+comment1.params=fahrgast
+comment1.target=boolean\ taxirufFuer(Fahrgast)
+comment1.text=\r\n\ Rufe\ ein\ Taxi\ f\u00FCr\ den\ angegebenen\ Fahrgast.\r\n\ @param\ fahrgast\ der\ Fahrgast,\ der\ gefahren\ werden\ m\u00F6chte.\r\n\ @return\ ob\ ein\ freies\ Fahrzeug\ verf\u00FCgbar\ ist.\r\n
+comment2.params=fahrzeug
+comment2.target=void\ ankunftAmAbholpunkt(Fahrzeug)
+comment2.text=\r\n\ Ein\ Fahrzeug\ hat\ den\ Abholpunkt\ erreicht.\r\n\ @param\ fahrzeug\ das\ Fahrzeug\ am\ Abholpunkt.\r\n\ @throws\ FehlenderFahrgastException\ wenn\ kein\ Fahrgast\r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ am\ Abholpunkt\ wartet.\r\n
+comment3.params=fahrzeug\ fahrgast
+comment3.target=void\ ankunftAmZiel(Fahrzeug,\ Fahrgast)
+comment3.text=\r\n\ Ein\ Fahrzeug\ hat\ das\ Ziel\ eines\ Fahrgastes\ erreicht.\r\n\ @param\ fahrzeug\ das\ Fahrzeug\ am\ Zielpunkt.\r\n\ @param\ fahrgast\ der\ abgesetzte\ Fahrgast.\r\n
+comment4.params=
+comment4.target=java.util.List\ gibFahrzeuge()
+comment4.text=\r\n\ @return\ die\ Liste\ der\ Fahrzeuge.\r\n
+comment5.params=
+comment5.target=Fahrzeug\ waehleFahrzeug()
+comment5.text=\r\n\ W\u00E4hle\ ein\ freies\ Fahrzeug,\ wenn\ verf\u00FCgbar.\r\n\ @return\ ein\ freies\ Fahrzeug\ oder\ null,\ wenn\r\n\ \ \ \ \ \ \ \ \ keines\ verf\u00FCgbar\ ist.\r\n
+comment6.params=
+comment6.target=void\ fahrzeugeEinrichten()
+comment6.text=\r\n\ Richte\ die\ Fahrzeuge\ dieses\ Unternehmens\ ein.\r\n\ Die\ optimale\ Anzahl\ an\ Fahrzeugen\ sollte\ durch\r\n\ die\ Analyse\ der\ Daten\ ermittelt\ werden,\ die\r\n\ durch\ diese\ Simulation\ geliefert\ werden.\r\n\ \r\n\ Fahrzeuge\ starten\ an\ zuf\u00E4lligen\ Positionen.\r\n
+numComments=7

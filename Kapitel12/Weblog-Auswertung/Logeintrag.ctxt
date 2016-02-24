@@ -1,0 +1,26 @@
+#BlueJ class context
+comment0.params=logzeile
+comment0.target=Logeintrag(java.lang.String)
+comment0.text=\r\n\ Zerteile\ eine\ Logzeile\ so,\ dass\ die\ einzelnen\r\n\ Werte\ verf\u00FCgbar\ werden.\r\n\ @param\ logzeile\ eine\ einzelne\ Zeile\ aus\ der\ Logdatei.\r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ Die\ Zeile\ sollte\ folgendes\ Format\ haben\:\r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ jahr\ monat\ tag\ stunde\ minute\ etc.\r\n
+comment1.params=jahr\ monat\ tag\ stunde\ minute
+comment1.target=Logeintrag(int,\ int,\ int,\ int,\ int)
+comment1.text=\r\n\ Erzeuge\ aus\ den\ einzelnen\ Komponenten\ einen\ Logeintrag\r\n\ @param\ jahr\ das\ Jahr\r\n\ @param\ monat\ der\ Monat\ (1-12)\r\n\ @param\ tag\ der\ Tag\ (1-31)\r\n\ @param\ stunde\ die\ Stunde\ (0-23)\r\n\ @param\ minute\ die\ Minute\ (0-59)\r\n\ @return\ den\ Stunden-Wert\ eines\ Logeintrags.\r\n
+comment2.params=
+comment2.target=int\ gibStunde()
+comment2.text=\r\n\ Liefere\ die\ Stunde.\r\n\ @return\ den\ Stunden-Wert\ eines\ Logeintrags.\r\n
+comment3.params=
+comment3.target=int\ gibMinute()
+comment3.text=\r\n\ Liefere\ die\ Minute.\r\n\ @return\ den\ Minuten-Wert\ eines\ Logeintrags.\r\n
+comment4.params=
+comment4.target=java.lang.String\ toString()
+comment4.text=\r\n\ Erzeuge\ eine\ Repr\u00E4sentation\ als\ String.\r\n\ Das\ Ergebnis\ ist\ nicht\ notwendigerweise\r\n\ identisch\ mit\ der\ urspr\u00FCnglichen\ Logzeile.\r\n\r\n\ @return\ eine\ Zeichenkette,\ die\ die\ Werte\ \r\n\ \ \ \ \ \ \ \ \ \ der\ Logzeile\ enth\u00E4lt.\r\n
+comment5.params=andererEintrag
+comment5.target=int\ compareTo(Logeintrag)
+comment5.text=\r\n\ Vergleiche\ die\ Datums-\ und\ Zeitwerte\ dieses\ Eintrags\r\n\ mit\ denen\ eines\ anderen.\r\n\ @param\ andererEintrag\ der\ andere\ Eintrag,\ mit\ dem\ verglichen\ werden\ soll.\r\n\ @return\ Einen\ negativen\ Wert,\ wenn\ dieser\ Eintrag\ einen\ fr\u00FCheren\r\n\ \ \ \ \ \ \ \ \ \ Zeitpunkt\ repr\u00E4sentiert.\ Einen\ positiven\ Wert,\ wenn\r\n\ \ \ \ \ \ \ \ \ \ dieser\ Eintrag\ einen\ sp\u00E4teren\ Zeitpunkt\ repr\u00E4sentiert.\r\n\ \ \ \ \ \ \ \ \ \ Null,\ wenn\ beide\ Eintr\u00E4ge\ den\ gleichen\ Zeitpunkt\r\n\ \ \ \ \ \ \ \ \ \ repr\u00E4sentieren.\r\n
+comment6.params=
+comment6.target=java.util.Calendar\ gibWann()
+comment6.text=\r\n\ Liefere\ das\ Calendar-Objekt,\ welches\ das\ Ereignis\ repr\u00E4sentiert\r\n\ @return\ Das\ Calendar-Objekt\ f\u00FCr\ dieses\ Ereignis.\r\n
+comment7.params=
+comment7.target=void\ setzeWann()
+comment7.text=\r\n\ Erzeuge\ ein\ zu\ den\ Werten\ passendes\ Calendar-Objekt.\r\n
+numComments=8

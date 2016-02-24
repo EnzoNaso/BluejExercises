@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.params=autor\ text
+comment0.target=NachrichtenEinsendung(java.lang.String,\ java.lang.String)
+comment0.text=\n\ Konstruktor\ f\u00FCr\ Objekte\ der\ Klasse\ NachrichtenEinsendung.\n\ \n\ @param\ autor\ \ \ \ Der\ Benutzername\ des\ Einsenders.\n\ @param\ text\ \ \ \ \ \ Der\ Text\ dieser\ Einsendung.\n
+comment1.params=
+comment1.target=java.lang.String\ gibText()
+comment1.text=\n\ Liefere\ den\ Text\ der\ Einsendung.\n\ \n\ @return\ der\ Nachrichtentext\ der\ Einsendung.\n
+comment2.params=
+comment2.target=void\ anzeigen()
+comment2.text=\n\ Zeige\ die\ Details\ der\ Einsendung\ an.\n\ \n\ (Aktuell\ werden\ die\ Daten\ auf\ die\ Konsole\ ausgegeben,wodurch\ momentan\ die\ \n\ Anzeige\ im\ Webbrowser\ simuliert\ werden\ soll.)\n
+numComments=3
