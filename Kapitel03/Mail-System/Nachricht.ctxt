@@ -1,7 +1,7 @@
 #BlueJ class context
-comment0.params=absender\ empfaenger\ text
-comment0.target=Nachricht(java.lang.String,\ java.lang.String,\ java.lang.String)
-comment0.text=\r\n\ Erzeuge\ eine\ Nachricht\ vom\ gegebenen\ 'absender'\ an\ den\ gegebenen\r\n\ 'empfaenger'\ mit\ dem\ gegebenen\ 'text'.\r\n\ @param\ absender\ der\ Absender\ dieser\ Nachricht\r\n\ @param\ empfaenger\ der\ gew\u00FCnschte\ Empf\u00E4nger\ dieser\ Nachricht.\r\n\ @param\ text\ der\ Text\ der\ Nachricht.\r\n
+comment0.params=absender\ empfaenger\ text\ betreff
+comment0.target=Nachricht(java.lang.String,\ java.lang.String,\ java.lang.String,\ java.lang.String)
+comment0.text=\r\n\ Erzeuge\ eine\ Nachricht\ vom\ gegebenen\ 'absender'\ an\ den\ gegebenen\r\n\ 'empfaenger'\ mit\ dem\ gegebenen\ 'text'.\r\n\ @param\ absender\ der\ Absender\ dieser\ Nachricht\r\n\ @param\ empfaenger\ der\ gew\u00FCnschte\ Empf\u00E4nger\ dieser\ Nachricht.\r\n\ @param\ text\ der\ Text\ der\ Nachricht.\r\n\ @param\ betreff\ der\ Betrefftext\ der\ Nachricht.\r\n
 comment1.params=
 comment1.target=java.lang.String\ gibAbsender()
 comment1.text=\r\n\ @return\ den\ Absender\ dieser\ Nachricht.\r\n
@@ -12,6 +12,9 @@ comment3.params=
 comment3.target=java.lang.String\ gibText()
 comment3.text=\r\n\ @return\ den\ Text\ dieser\ Nachricht.\r\n
 comment4.params=
-comment4.target=void\ ausgeben()
-comment4.text=\r\n\ Gib\ Informationen\ \u00FCber\ diese\ Nachricht\ auf\ der\ Konsole\ aus.\r\n
-numComments=5
+comment4.target=java.lang.String\ gibBetreff()
+comment4.text=\r\n\ @return\ den\ Betreff\ dieser\ Nachricht.\r\n
+comment5.params=
+comment5.target=void\ ausgeben()
+comment5.text=\r\n\ Gib\ Informationen\ \u00FCber\ diese\ Nachricht\ auf\ der\ Konsole\ aus.\r\n
+numComments=6

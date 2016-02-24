@@ -13,19 +13,23 @@ public class Nachricht
     private String empfaenger;
     // Der Text der Nachricht
     private String text;
-
+    // Der Betrefftext der Nachricht
+    private String betreff;
+    
     /**
      * Erzeuge eine Nachricht vom gegebenen 'absender' an den gegebenen
      * 'empfaenger' mit dem gegebenen 'text'.
      * @param absender der Absender dieser Nachricht
      * @param empfaenger der gewünschte Empfänger dieser Nachricht.
      * @param text der Text der Nachricht.
+     * @param betreff der Betrefftext der Nachricht.
      */
-    public Nachricht(String absender, String empfaenger, String text)
+    public Nachricht(String absender, String empfaenger, String text, String betreff)
     {
         this.absender = absender;
         this.empfaenger = empfaenger;
         this.text = text;
+        this.betreff = betreff;
     }
 
     /**
@@ -51,6 +55,14 @@ public class Nachricht
     {
         return text;
     }
+    
+    /**
+     * @return den Betreff dieser Nachricht.
+     */
+    public String gibBetreff()
+    {
+        return betreff;
+    }    
 
     /**
      * Gib Informationen über diese Nachricht auf der Konsole aus.
@@ -59,6 +71,7 @@ public class Nachricht
     {
         System.out.println("Von: " + absender);
         System.out.println("An: " + empfaenger);
+        System.out.println("Betreff: " + betreff);
         System.out.println("Text: " + text);
     }
 }

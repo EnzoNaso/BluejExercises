@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.params=xAufloesung\ yAufloesung
+comment0.target=Bildschirm(int,\ int)
+comment0.text=\r\n\ Constructor\ for\ objects\ of\ class\ Bildschirm\r\n\ \r\n\ @params\ xAufloesung\ Bildpunkte\ auf\ der\ X-Achse\r\n\ @params\ yAufloesung\ Bildpunkte\ auf\ der\ Y-Achse\r\n
+comment1.params=
+comment1.target=int\ anzahlBildpunkte()
+comment1.text=\r\n\ Anzahl\ Bildpunkte\r\n\ \r\n
+comment2.params=invertieren
+comment2.target=void\ loeschen(boolean)
+comment2.text=\r\n\ loeschen\ der\ Bildpunkte\r\n\ \r\n\ @params\ invertieren\ Bildpunkte\ invertieren\ (schwarz/weiss)\ \r\n
+numComments=3

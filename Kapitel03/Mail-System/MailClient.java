@@ -55,9 +55,9 @@ public class MailClient
      * @param empfaenger der gewünschte Empfänger
      * @param text der Text der Nachricht
      */
-    public void sendeNachricht(String empfaenger, String text)
+    public void sendeNachricht(String empfaenger, String text, String betreff)
     {
-        Nachricht nachricht = new Nachricht(benutzer, empfaenger, text);
+        Nachricht nachricht = new Nachricht(benutzer, empfaenger, text, betreff);
         server.leiteWeiter(nachricht);
     }
 }
