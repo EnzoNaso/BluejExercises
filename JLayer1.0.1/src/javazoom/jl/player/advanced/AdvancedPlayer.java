@@ -236,7 +236,7 @@ public class AdvancedPlayer
 	 */
 	public void stop()
 	{
-		if(listener != null) listener.playbackFinished(createEvent(PlaybackEvent.STOPPED));
+		listener.playbackFinished(createEvent(PlaybackEvent.STOPPED));
 		close();
 	}
 }
