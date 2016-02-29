@@ -44,7 +44,8 @@ public class MusikSammlung
      */
     public void dateiAusgeben(int index)
     {
-        if(index >= 0 && index < dateien.size()) {
+        if(index >= 0 && index < dateien.size()) //Validierung des index
+        {
             String dateiname = dateien.get(index);
             System.out.println(dateiname);
         }
