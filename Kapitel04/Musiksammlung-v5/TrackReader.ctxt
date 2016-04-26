@@ -1,14 +1,8 @@
 #BlueJ class context
 comment0.params=
 comment0.target=TrackReader()
-comment0.text=\r\n\ Erzeuge\ einen\ Track-Reader,\ mit\ dem\ Tracks\ aus\ dem\ Musikbibliotheks-Ordner\ gelesen\ werden\ k\u00F6nnen.\r\n
-comment1.params=ordner\ suffix
-comment1.target=java.util.ArrayList\ liesTracks(java.lang.String,\ java.lang.String)
-comment1.text=\r\n\ Lies\ Musikdateien\ mit\ der\ angegebenen\ Endung\ aus\ dem\ angegebenen\ Bibliotheksordner.\r\n\ @param\ ordner\ der\ Ordner,\ in\ dem\ nach\ Dateien\ gesucht\ werden\ soll.\r\n\ @param\ suffix\ die\ Endung\ f\u00FCr\ den\ Audiotyp.\r\n
-comment2.params=verz\ name
-comment2.target=boolean\ accept(java.io.File,\ java.lang.String)
-comment2.text=\r\n\ Akzeptiere\ nur\ Dateien\ mit\ passender\ Endung.\r\n\ @param\ verz\ das\ Verzeichnis,\ in\ dem\ die\ Datei\ liegt.\r\n\ @param\ name\ der\ Name\ der\ Datei.\r\n\ @return\ true,\ wenn\ der\ Namen\ die\ gew\u00FCnschte\ Endung\ hat.\r\n
-comment3.params=datei
-comment3.target=Track\ dekodiereDetails(java.io.File)
-comment3.text=\r\n\ Versuche\ die\ Angaben\ zu\ Interpret\ und\ Titel\ aus\ dem\ Dateinamen\ zu\ extrahieren.\r\n\ Geht\ davon\ aus,\ dass\ der\ Dateiname\ folgendes\ Format\ hat\:\r\n\ \ \ \ \ interpret-titel.mp3\r\n\ @param\ datei\ die\ Track-Datei.\r\n\ @return\ ein\ Track-Objekt\ mit\ den\ entsprechenden\ Angaben.\r\n
-numComments=4
+comment0.text=\n\ Erzeuge\ einen\ Track-Reader,\ mit\ dem\ Tracks\ aus\ dem\ Musikbibliotheks-Ordner\ gelesen\ werden\ k\u00F6nnen.\n
+comment1.params=verz\ name
+comment1.target=boolean\ accept(java.io.File,\ java.lang.String)
+comment1.text=\n\ Akzeptiere\ nur\ Dateien\ mit\ passender\ Endung.\n\ @param\ verz\ das\ Verzeichnis,\ in\ dem\ die\ Datei\ liegt.\n\ @param\ name\ der\ Name\ der\ Datei.\n\ @return\ true,\ wenn\ der\ Namen\ die\ gew\u00FCnschte\ Endung\ hat.\n
+numComments=2

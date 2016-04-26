@@ -89,8 +89,9 @@ public class MusikSammlung
         int index = 0;
         // Wir suchen so lange, bis eine Übereinstimmung gefunden wurde.
         boolean amSuchen = true;
-    
-        while(amSuchen && index < dateien.size()) {
+        int dateienAnzahl = dateien.size();
+        
+        while(amSuchen && index < dateienAnzahl) {
             String dateiname = dateien.get(index);
             if(dateiname.contains(suchbegriff)) {
                 // Eine Übereinstimmung. Wir können die Suche beenden.
@@ -140,4 +141,53 @@ public class MusikSammlung
     {
         player.stop();
     }    
+    
+    public void vielFachesVonFuenf()
+    {
+        int index = 5;
+        while(index < 95)
+        {
+            System.out.println(index);
+            index += 5;
+        }
+    }
+    
+    public void summieren(int startZahl, int stopZahl)
+    {
+        int summe = 0;
+        int zahl = 0;
+        int letzteZahl = 0;
+        if (startZahl < stopZahl)
+        {
+            zahl = startZahl;
+            letzteZahl = stopZahl;
+        }
+        else
+        {
+            zahl = stopZahl;
+            letzteZahl = startZahl;
+        }
+        while(zahl <= letzteZahl)
+        {
+            summe += zahl;
+            zahl++;
+        }
+        System.out.println(summe);
+        
+    }
+    
+    public boolean isPrim(int zahl)
+    {
+        int index = 2;
+        while(index < zahl)
+        {
+            if(zahl % index == 0 )
+            {
+                return false;
+            }
+            index++;
+        }
+        return true;
+    }
+    
 }

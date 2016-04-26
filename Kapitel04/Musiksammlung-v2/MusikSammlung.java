@@ -82,5 +82,14 @@ public class MusikSammlung
     public void beendeAbspielen()
     {
         player.stop();
-    }    
+    }   
+    
+    public void alleDateienAusgeben()
+    {
+        for(String datei : dateien)
+        {
+            System.out.println(datei);
+            datei = "TEST";
+        }
+    }
 }
