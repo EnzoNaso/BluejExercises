@@ -44,7 +44,8 @@ public class MusikSammlung
      */
     public void dateiAusgeben(int index)
     {
-        if(gueltigerIndex(index)) {
+        if(index >= 0 && index < dateien.size()) //Validierung des index
+        {
             String dateiname = dateien.get(index);
             System.out.println(dateiname);
         }
@@ -56,7 +57,7 @@ public class MusikSammlung
      */
     public void entferneDatei(int index)
     {
-        if(gueltigerIndex(index)) {
+        if(index >= 0 && index < dateien.size()) {
             dateien.remove(index);
         }
     }

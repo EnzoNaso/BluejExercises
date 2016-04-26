@@ -3,11 +3,19 @@ dependency1.from=MusikSammlung
 dependency1.to=MusikPlayer
 dependency1.type=UsesDependency
 objectbench.height=100
+<<<<<<< HEAD
 objectbench.width=679
 package.editor.height=394
 package.editor.width=876
 package.editor.x=39
 package.editor.y=42
+=======
+objectbench.width=459
+package.editor.height=394
+package.editor.width=666
+package.editor.x=2071
+package.editor.y=86
+>>>>>>> master
 package.numDependencies=1
 package.numTargets=2
 package.showExtends=true
@@ -19,8 +27,13 @@ readme.editor.x=0
 readme.editor.y=22
 target1.editor.height=700
 target1.editor.width=900
+<<<<<<< HEAD
 target1.editor.x=540
 target1.editor.y=54
+=======
+target1.editor.x=2095
+target1.editor.y=390
+>>>>>>> master
 target1.height=60
 target1.name=MusikPlayer
 target1.naviview.expanded=true
@@ -30,10 +43,13 @@ target1.typeParameters=
 target1.width=130
 target1.x=310
 target1.y=200
+<<<<<<< HEAD
 target2.editor.height=700
 target2.editor.width=900
 target2.editor.x=79
 target2.editor.y=62
+=======
+>>>>>>> master
 target2.height=50
 target2.name=MusikSammlung
 target2.showInterface=false
