@@ -1,20 +1,20 @@
 #BlueJ class context
 comment0.params=nummer\ beschreibung
 comment0.target=Posten(int,\ java.lang.String)
-comment0.text=\r\n\ Erzeuge\ einen\ Posten,\ mit\ Nummer\ und\ Beschreibung.\r\n\ @param\ nummer\ die\ Postennummer.\r\n\ @param\ beschreibung\ eine\ Beschreibung\ dieses\ Postens.\r\n
+comment0.text=\n\ Erzeuge\ einen\ Posten,\ mit\ Nummer\ und\ Beschreibung.\n\ @param\ nummer\ die\ Postennummer.\n\ @param\ beschreibung\ eine\ Beschreibung\ dieses\ Postens.\n
 comment1.params=gebot
 comment1.target=boolean\ hoeheresGebot(Gebot)
-comment1.text=\r\n\ Ein\ Versuch,\ f\u00FCr\ diesen\ Posten\ zu\ bieten.\ Ein\ erfolgreiches\r\n\ Gebot\ muss\ h\u00F6her\ sein\ als\ alle\ bisherigen\ Gebote.\r\n\ @param\ gebot\ ein\ neues\ Gebot.\r\n\ @return\ true\ falls\ erfolgreich,\ false\ sonst.\r\n
+comment1.text=\n\ Ein\ Versuch,\ f\u00FCr\ diesen\ Posten\ zu\ bieten.\ Ein\ erfolgreiches\n\ Gebot\ muss\ h\u00F6her\ sein\ als\ alle\ bisherigen\ Gebote.\n\ @param\ gebot\ ein\ neues\ Gebot.\n\ @return\ true\ falls\ erfolgreich,\ false\ sonst.\n
 comment2.params=
 comment2.target=java.lang.String\ toString()
-comment2.text=\r\n\ @return\ Eine\ String-Darstellung\ der\ Details\ dieses\ Postens.\r\n
+comment2.text=\n\ @return\ Eine\ String-Darstellung\ der\ Details\ dieses\ Postens.\n
 comment3.params=
 comment3.target=int\ gibNummer()
-comment3.text=\r\n\ @return\ die\ Nummer\ dieses\ Postens.\r\n
+comment3.text=\n\ @return\ die\ Nummer\ dieses\ Postens.\n
 comment4.params=
 comment4.target=java.lang.String\ gibBeschreibung()
-comment4.text=\r\n\ @return\ die\ Beschreibung\ dieses\ Postens.\r\n
+comment4.text=\n\ @return\ die\ Beschreibung\ dieses\ Postens.\n
 comment5.params=
 comment5.target=Gebot\ gibHoechstesGebot()
-comment5.text=\r\n\ Liefere\ das\ h\u00F6chste\ Gebot\ f\u00FCr\ diesen\ Posten.\r\n\ Das\ Ergebnis\ kann\ 'null'\ sein,\ wenn\ noch\ kein\r\n\ Gebot\ abgegeben\ wurde.\r\n\ @return\ das\ h\u00F6chste\ Gebot\r\n
+comment5.text=\n\ Liefere\ das\ h\u00F6chste\ Gebot\ f\u00FCr\ diesen\ Posten.\n\ Das\ Ergebnis\ kann\ 'null'\ sein,\ wenn\ noch\ kein\n\ Gebot\ abgegeben\ wurde.\n\ @return\ das\ h\u00F6chste\ Gebot\n
 numComments=6

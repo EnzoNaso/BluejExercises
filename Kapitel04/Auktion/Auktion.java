@@ -1,4 +1,6 @@
 import java.util.ArrayList;
+import java.util.Iterator;
+import java.util.LinkedList;
 
 /**
  * Ein einfaches Modell einer Auktion.
@@ -15,13 +17,15 @@ public class Auktion
     // die Nummer, die an den nächsten Posten vergeben wird,
     // der für diese Auktion angemeldet wird.
     private int naechstePostennummer;
-
+    private LinkedList<Posten> postenLinkedList;
+    
     /**
      * Erzeuge eine neue Auktion.
      */
     public Auktion()
     {
         postenliste = new ArrayList<Posten>();
+        postenLinkedList = new LinkedList<Posten>();
         naechstePostennummer = 1;
     }
 
@@ -56,8 +60,8 @@ public class Auktion
     {
         Posten gewaehlterPosten = gibPosten(postennummer);
         if(gewaehlterPosten != null) {
-            Gebot gebot = new Gebot(bieter, betrag);
-            boolean erfolgreich = gewaehlterPosten.hoeheresGebot(gebot);
+            
+            boolean erfolgreich = gewaehlterPosten.hoeheresGebot(new Gebot(bieter, betrag));
             if(erfolgreich) {
                 System.out.println("Das Gebot für Posten Nummer " +
                                    postennummer + " war erfolgreich.");
@@ -82,17 +86,16 @@ public class Auktion
     public Posten gibPosten(int nummer)
     {
         if((nummer >= 1) && (nummer < naechstePostennummer)) {
-            // die Nummer scheint gültig zu sein.
-            Posten gewaehlterPosten = postenliste.get(nummer-1);
-            // ein Sicherheitscheck, ob wir auch den richtigen
-            // Posten haben:
-            if(gewaehlterPosten.gibNummer() != nummer) {
-                System.out.println("Interner Fehler: Posten Nummer " +
-                                   gewaehlterPosten.gibNummer() +
-                                   " wurde geliefert anstelle von " +
-                                   nummer);
+            Iterator<Posten> it = postenliste.iterator(); 
+            while(it.hasNext())
+            {
+                Posten posten = it.next();
+                if(posten.gibNummer() == nummer)
+                {
+                    return posten;
+                }
             }
-            return gewaehlterPosten;
+            return null;
         }
         else {
             System.out.println("Einen Posten mit der Nummer: " + nummer +
@@ -100,4 +103,61 @@ public class Auktion
             return null;
         }
     }
+    
+    /** 
+     *Entferne den Posten mit der gegebenen Postennummer. 
+     *@param nummer die Nummer des Postens, der entfernt werden soll. 
+     *@return den Posten mit der gegebenen Nummer, oder null, falls 
+     * es einen solchen Posten nicht gibt. 
+     */ 
+    public Posten entfernePosten(int nummer)
+    {
+        if((nummer >= 1) && (nummer < naechstePostennummer)) {
+            Iterator<Posten> it = postenliste.iterator(); 
+            while(it.hasNext())
+            {
+                Posten posten = it.next();
+                if(posten.gibNummer() == nummer)
+                {
+                    postenliste.remove(posten);
+                    return posten;
+                }
+            }
+            return null;
+        }
+        else {
+            System.out.println("Einen Posten mit der Nummer: " + nummer +
+                               " gibt es nicht.");
+            return null;
+        }
+    }
+    
+    public void beenden()
+    {
+        for(Posten posten : postenliste)
+        {
+            if(posten.gibHoechstesGebot() != null)
+            {
+                System.out.println(posten.gibHoechstesGebot().gibBieter().gibName() + " :  " + posten.toString());
+            }
+            else
+            {
+                System.out.println(posten.toString());  
+            }
+        }
+    }
+    
+    public ArrayList<Posten> gibUnverkaufte()
+    {
+        ArrayList<Posten> unverkauftePosten = new ArrayList<Posten>();
+        for(Posten posten : postenliste)
+        {
+            if(posten.gibHoechstesGebot() == null)
+            {
+                unverkauftePosten.add(posten);
+            }
+        }
+        return unverkauftePosten;
+    }
+    
 }

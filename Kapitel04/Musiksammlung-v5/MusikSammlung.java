@@ -1,5 +1,6 @@
 import java.util.ArrayList;
 import java.util.Iterator;
+import java.util.Random;
 
 /**
  * Eine Klasse zur Verwaltung von Audiotracks.
@@ -189,4 +190,22 @@ public class MusikSammlung
         }
     }
     
+    public void entferneAlleTracks()
+    {
+        Iterator<Track> it = tracks.iterator();
+        while(it.hasNext())
+        {
+            Track track = it.next();
+            it.remove();
+        }
+    }
+    
+    public void suffle()
+    {
+        
+        int size = tracks.size();
+        Random rd = new Random();
+        spieleTrack(rd.nextInt(size));
+        
+    }
 }
