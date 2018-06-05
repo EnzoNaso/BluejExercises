@@ -1,13 +1,15 @@
 #BlueJ class context
-comment0.params=
-comment0.target=Heizung()
-comment0.text=\r\n\ Constructor\ for\ objects\ of\ class\ Heizung\r\n
+comment0.target=Heizung
+comment0.text=\r\n\ Write\ a\ description\ of\ class\ Heizung\ here.\r\n\ \r\n\ @author\ (your\ name)\ \r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
 comment1.params=
-comment1.target=double\ gibTemperatur()
-comment2.params=schrittweite
-comment2.target=void\ setzeSchrittweite(double)
-comment3.params=
-comment3.target=void\ waermer()
+comment1.target=Heizung()
+comment1.text=\r\n\ Constructor\ for\ objects\ of\ class\ Heizung\r\n
+comment2.params=
+comment2.target=double\ gibTemperatur()
+comment3.params=schrittweite
+comment3.target=void\ setzeSchrittweite(double)
 comment4.params=
-comment4.target=void\ kuehler()
-numComments=5
+comment4.target=void\ waermer()
+comment5.params=
+comment5.target=void\ kuehler()
+numComments=6
