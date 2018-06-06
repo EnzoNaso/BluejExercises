@@ -62,4 +62,11 @@ public class MusikSammlung
         }
     }
 
+    public boolean gueltigerIndex(int index)
+    {
+        if(index >= 0 && index < dateien.size()) {
+            return true;
+        }
+        return false;
+    }
 }

@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.params=
+comment0.target=Matheaufgaben()
+comment0.text=\n\ Constructor\ for\ objects\ of\ class\ Matheaufgaben\n
+comment1.params=
+comment1.target=void\ vielfacheVonFuenf()
+comment2.params=a\ b
+comment2.target=void\ summieren(int,\ int)
+comment3.params=n
+comment3.target=boolean\ istPrim(int)
+numComments=4

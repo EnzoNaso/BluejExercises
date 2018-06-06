@@ -13,6 +13,10 @@ public class Track
     private String titel;
     // Wo der Track gespeichert ist.
     private String dateiname;
+    // Wie oft abgespielt
+    private int abspielFrequenz;
+    // Track Länge in sec
+    private int laenge;
     
     /**
      * Konstruktor für Objekte der Klasse Track.
@@ -23,6 +27,8 @@ public class Track
     public Track(String interpret, String titel, String dateiname)
     {
         setzeDetails(interpret, titel, dateiname);
+        setzteAbspielFrequenz();
+        setzteLaenge(0);
     }
     
     /**
@@ -83,6 +89,31 @@ public class Track
         this.interpret = interpret;
         this.titel = titel;
         this.dateiname = dateiname;
+        //this.laenge = laenge;
     }
     
+    private void setzteAbspielFrequenz()
+    {
+        abspielFrequenz = 0;
+    }
+    
+    public int getAbspielFrequenz()
+    {
+        return abspielFrequenz;
+    }
+    
+    public void abspielFrequentErhoehen()
+    {
+        abspielFrequenz++;
+    }
+    
+    private void setzteLaenge(int laenge)
+    {
+        this.laenge = laenge;
+    }
+    
+    public int gibLaenge()
+    {
+        return laenge;
+    }
 }

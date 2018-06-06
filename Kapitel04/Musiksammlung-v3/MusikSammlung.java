@@ -20,6 +20,12 @@ public class MusikSammlung
     {
         dateien = new ArrayList<String>();
         player = new MusikPlayer();
+        
+        //um nicht immer alle Titel von hand einzutragen
+        dateien.add("audio/BigBillBroonzy-BabyPleaseDontGo1.mp3");
+        dateien.add("audio/BlindBlake-EarlyMorningBlues.mp3");
+        dateien.add("audio/BlindLemonJefferson-OneDimeBlues.mp3");
+        dateien.add("audio/BlindLemonJefferson-matchBoxBlues.mp3");
     }
 
     /**
@@ -52,6 +58,43 @@ public class MusikSammlung
             System.out.println(dateiname);
         }
     }    
+    
+    public boolean bestimmtedateiAusgeben(String suchbegriff)
+    {
+        boolean vorhanden = false;
+        for(String datei : dateien)
+        {
+            if(datei.contains(suchbegriff))
+            {
+                vorhanden = true;
+            }
+        }
+        
+        if(vorhanden)
+        {
+            System.out.println("Suche erfolgreich, Titel ist vorhanden.");
+        }
+        else
+        {
+            System.out.println("Titel ist in Sammlung NICHT vorhanden.");
+        }
+        
+        return vorhanden;
+    }
+    
+    public void alleTracksDesInterpretenAbspielen(String interpret)
+    {
+        int position = 0;
+        for(String datei : dateien)
+        {
+            if(datei.contains(interpret))
+            {
+                abspielenUndWarten(position);
+            }
+            position++;
+        }
+        
+    }
     
     /**
      * Gib eine Liste aller Dateien in der Sammlung aus.
@@ -133,5 +176,7 @@ public class MusikSammlung
         }
         return gueltig;
     }
+    
+    
     
 }

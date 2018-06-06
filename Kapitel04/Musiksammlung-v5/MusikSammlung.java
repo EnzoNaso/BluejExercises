@@ -1,4 +1,5 @@
 import java.util.ArrayList;
+import java.util.Iterator;
 
 /**
  * Eine Klasse zur Verwaltung von Audiotracks.
@@ -55,7 +56,9 @@ public class MusikSammlung
     {
         if(gueltigerIndex(index)) {
             Track track = tracks.get(index);
+            beendeAbspielen();
             player.starteAbspielen(track.gibDateiname());
+            track.abspielFrequentErhoehen();
             System.out.println("Sie hoeren gerade: " + track.gibInterpret() + " - " + track.gibTitel());
         }
     }
@@ -170,6 +173,19 @@ public class MusikSammlung
         // Alle Tracks in die Sammlung einfügen.
         for(Track track : tempTracks) {
             trackHinzufuegen(track);
+        }
+    }
+    
+    public void entferneTrack(String interpretZuEntfernen)
+    {
+        Iterator<Track> it = tracks.iterator();
+        while(it.hasNext())
+        {
+            Track track = it.next();
+            if(track.gibInterpret().contains(interpretZuEntfernen))
+            {
+                it.remove();
+            }
         }
     }
     
