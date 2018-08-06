@@ -14,7 +14,7 @@ public class MusikSammlung
     // Eine ArrayList, in der die Musik-Tracks gespeichert werden können.
     private ArrayList<Track> tracks;
     // Ein Player zum Abspielen der Musik-Tracks.
-    private MusikPlayer player;
+    //private MusikPlayer player;
     // Ein Reader, der Musikdateien lesen und als Tracks laden kann
     private TrackReader reader;
 
@@ -24,7 +24,7 @@ public class MusikSammlung
     public MusikSammlung()
     {
         tracks = new ArrayList<Track>();
-        player = new MusikPlayer();
+        //player = new MusikPlayer();
         reader = new TrackReader();
         liesBibliothek("audio");
         System.out.println("Musikbibliothek wurde geladen. " + gibAnzahlTracks() + " Tracks.");
@@ -58,7 +58,7 @@ public class MusikSammlung
         if(gueltigerIndex(index)) {
             Track track = tracks.get(index);
             beendeAbspielen();
-            player.starteAbspielen(track.gibDateiname());
+            //player.starteAbspielen(track.gibDateiname());
             track.abspielFrequentErhoehen();
             System.out.println("Sie hoeren gerade: " + track.gibInterpret() + " - " + track.gibTitel());
         }
@@ -129,7 +129,7 @@ public class MusikSammlung
     public void spieleErsten()
     {
         if(tracks.size() > 0) {
-            player.starteAbspielen(tracks.get(0).gibDateiname());
+            //player.starteAbspielen(tracks.get(0).gibDateiname());
         }
     }
 
@@ -138,7 +138,7 @@ public class MusikSammlung
      */
     public void beendeAbspielen()
     {
-        player.stop();
+        //player.stop();
     }    
     
     /**
@@ -195,19 +195,18 @@ public class MusikSammlung
      */
     public void shuffle()
     {
-        ArrayList<Track> shuffletracks = tracks.clone();
+        ArrayList<Track> shuffleTracks = (ArrayList<Track>)tracks.clone();
+        ArrayList<Track> sortTracks = new ArrayList<Track>();
         
         Random rd = new Random();
         int index = 0;
-        boolean found = false;
-        while(found)
+        while(shuffleTracks.size() > 1)
         {
-            index = rd.nextInt(gibAnzahlTracks());
-            if (tracks.get(index).getAbspielFrequenz() < 1)
-            {
-                found = true;
-            }
+            index = rd.nextInt(shuffleTracks.size());
+            sortTracks.add(shuffleTracks.get(index));
+            shuffleTracks.remove(index);
         }
-        spieleTrack(index);
+        sortTracks.add(shuffleTracks.get(0));
+        tracks = sortTracks;
     }
 }
