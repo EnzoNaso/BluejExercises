@@ -21,6 +21,14 @@ public class Student
      */
     public Student(String vollerName, String matrNr)
     {
+        if(vollerName.length() < 4)
+        {
+            System.out.println("Der Name muss mindestens 4 Zeichen haben");
+        }
+        if(matrNr.length() < 3)
+        {
+            System.out.println("Die Matrikelnummer muss mindestens 3 Zeichen haben");
+        }
         name = vollerName;
         matrikelnummer = matrNr;
         scheine = 0;
@@ -73,7 +81,19 @@ public class Student
      */
     public String gibLoginName()
     {
-        return name.substring(0,4) + matrikelnummer.substring(0,3);
+        String tempname = this.name;
+        String tempmatrikelnummer = this.matrikelnummer;
+        if(name.length() > 4)
+        {
+            tempname.substring(0,4);
+        }
+        
+        if(matrikelnummer.length() > 3)
+        {
+            tempmatrikelnummer.substring(0,3);
+        }
+
+        return tempname + tempmatrikelnummer;
     }
     
     /**

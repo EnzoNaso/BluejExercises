@@ -1,8 +1,10 @@
 #BlueJ class context
-comment0.params=
-comment0.target=VereinDemo()
-comment0.text=\n\ Konstruktor\ f\u00FCr\ Objekte\ der\ Klasse\ VereinDemo\n
+comment0.target=VereinDemo
+comment0.text=\r\n\ Eine\ Demo\ der\ Klassen\ Verein\ und\ Mitgliedschaft.\r\n\ \r\n\ @author\ (Ihr\ Name)\ \r\n\ @version\ (eine\ Versionsnummer\ oder\ ein\ Datum)\r\n
 comment1.params=
-comment1.target=void\ demo()
-comment1.text=\n\ Trage\ einige\ Mitglieder\ in\ den\ Verein\ ein\ und\n\ zeige\ dann,\ wie\ viele\ es\ sind.\n\ Weitere\ Beispielaufrufe\ k\u00F6nnten\ eingef\u00FCgt\ werden,\ wenn\n\ der\ Verein\ weitere\ Funktionalit\u00E4t\ erh\u00E4lt.\n
-numComments=2
+comment1.target=VereinDemo()
+comment1.text=\r\n\ Konstruktor\ f\u00FCr\ Objekte\ der\ Klasse\ VereinDemo\r\n
+comment2.params=
+comment2.target=void\ demo()
+comment2.text=\r\n\ Trage\ einige\ Mitglieder\ in\ den\ Verein\ ein\ und\r\n\ zeige\ dann,\ wie\ viele\ es\ sind.\r\n\ Weitere\ Beispielaufrufe\ k\u00F6nnten\ eingef\u00FCgt\ werden,\ wenn\r\n\ der\ Verein\ weitere\ Funktionalit\u00E4t\ erh\u00E4lt.\r\n
+numComments=3

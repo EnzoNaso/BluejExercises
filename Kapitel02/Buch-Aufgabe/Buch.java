@@ -71,12 +71,12 @@ class Buch
     
     public void autorAusgeben()
     {
-        System.out.println(gibAutor());
+        System.out.println(this.gibAutor());
     }
     
     public void titelAusgeben()
     {
-        System.out.println(gibTitel());
+        System.out.println(this.gibTitel());
     }
     
     public void ausleihen()
@@ -89,9 +89,9 @@ class Buch
         String ausgabe = "Titel: " + gibTitel() + ", Autor: " + gibAutor() + ", Seiten: " + gibSeiten() + 
                             ", RefNummer: ";
         
-        if(gibRefNummer().length() > 0)
+        if(this.gibRefNummer().length() > 0)
         {
-            ausgabe += gibRefNummer();
+            ausgabe += this.gibRefNummer();
         }
         else
         {

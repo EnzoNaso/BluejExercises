@@ -71,11 +71,8 @@ public class Nummernanzeige
     public void erhoehen()
     {
         //wert = (wert + 1) % limit;
-        if((wert + 1) < limit)
-        {
-            wert++;
-        }
-        else
+        wert++;
+        if(wert >= limit)
         {
             wert = 0;
         }

@@ -18,6 +18,8 @@ public class Ticketautomat
     private int bisherGezahlt;
     // Die Geldsumme, die bisher von diesem Automaten eingenommen wurde.
     private int gesamtsumme;
+    //Rabatt 
+    private int rabatt;
 
     /**
      * Erzeuge einen Automaten, der Tickets zum angegebenen Preis
@@ -25,26 +27,37 @@ public class Ticketautomat
      */
     public Ticketautomat(int ticketpreis)
     {
-        preis = ticketpreis;
-        bisherGezahlt = 0;
-        gesamtsumme = 0;
+        this.preis = ticketpreis;
+        this.bisherGezahlt = 0;
+        this.gesamtsumme = 0;
+        this.rabatt = 0;
     }
 
     /**
-     * Liefere den Preis eines Tickets dieses Automaten (in Cent).
+     * Liefere den Preis inkl. den Rabatt eines Tickets dieses Automaten (in Cent).
      */
-    public int gibPreis()
+    public double gibPreisInklRabatt()
     {
-        return preis;
+        return this.preis * (100.0 - this.rabatt) / 100.0;
     }
 
+    public int gibRabatt()
+    {
+        return this.rabatt;
+    }
+    
+    public void setzeRabatt(int rabatt)
+    {
+        this.rabatt = rabatt;
+    }
+    
     /**
      * Liefere die Höhe des Betrags, der für das nächste Ticket bereits
      * eingeworfen wurde.
      */
     public int gibBisherGezahltenBetrag()
     {
-        return bisherGezahlt;
+        return this.bisherGezahlt;
     }
 
     /**
@@ -71,23 +84,25 @@ public class Ticketautomat
      */
     public void ticketDrucken()
     {
-        int nochZuZahlen =  preis - bisherGezahlt;
-        
+        double preisinklrabatt = this.preis * (100.0 - this.rabatt) / 100.0;
+        double nochZuZahlen = preisinklrabatt - this.bisherGezahlt;
+
         if (nochZuZahlen <= 0) {
-            
+
             // Den Ausdruck eines Tickets simulieren.
             System.out.println("##################");
             System.out.println("# Die BlueJ-Linie");
             System.out.println("# Ticket");
-            System.out.println("# " + preis + " Cent.");
+            System.out.println("# " + preisinklrabatt + " Cent.");
             System.out.println("##################");
             System.out.println();
 
             // Die Gesamtsumme um den Ticketpreis erhöhen.
-            gesamtsumme = gesamtsumme + preis;
+            this.gesamtsumme += preisinklrabatt;
             // Den Preis von der bisherigen Bezahlung abziehen.
-            bisherGezahlt = bisherGezahlt - preis;
+            this.bisherGezahlt -= preisinklrabatt;
             return;
+
         }
 
         System.out.println("Sie müssen noch mindestens " +
@@ -102,27 +117,25 @@ public class Ticketautomat
      */
     public int wechselgeldAuszahlen()
     {
-        int wechselgeld;
-        wechselgeld = bisherGezahlt;
-        bisherGezahlt = 0;
-    
-        
-//         double anzahl = 5.0;
-//         double gesamt = 1000.0;
-//         double rabatt = 0.05;
-//         double preis = 1000.0;
-//         
-//         double ersparnis = preis * rabatt;
-//         double durchschnitt = gesamt / anzahl;
-//         
+        int wechselgeld = bisherGezahlt;
+        this.bisherGezahlt = 0;
+
+        //         double anzahl = 5.0;
+        //         double gesamt = 1000.0;
+        //         double rabatt = 0.05;
+        //         double preis = 1000.0;
+        //         
+        //         double ersparnis = preis * rabatt;
+        //         double durchschnitt = gesamt / anzahl;
+        //         
         return wechselgeld;
     }
-    
+
     public int entleeren()
     {
         int temp = gesamtsumme;
-        gesamtsumme = 0;
+        this.gesamtsumme = 0;
         return temp;
-        
+
     }
 }
