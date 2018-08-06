@@ -1,3 +1,5 @@
+import java.util.ArrayList;
+
 /**
  * Speichert Details über Vereinsmitgliedschaften.
  * 
@@ -7,6 +9,7 @@
 public class Verein
 {
     // Definieren Sie alle notwendigen Datenfelder hier...
+    private ArrayList<Mitgliedschaft> mitglieder;
     
     /**
      * Konstruktor für Objekte der Klasse Verein
@@ -14,7 +17,7 @@ public class Verein
     public Verein()
     {
         // Initialisieren Sie die Datenfelder hier...
-        
+        mitglieder = new ArrayList();
     }
 
     /**
@@ -23,6 +26,7 @@ public class Verein
      */
     public void beitreten(Mitgliedschaft mitglied)
     {
+        mitglieder.add(mitglied);
     }
 
     /**
@@ -31,6 +35,6 @@ public class Verein
      */
     public int anzahlMitglieder()
     {
-        return 0;
+        return mitglieder.size();
     }
 }

@@ -10,6 +10,7 @@ public class MusikSammlung
 {
     // Eine ArrayList, in der die Namen von Audiodateien gespeichert werden können.
     private ArrayList<String> dateien;
+    private ArrayList<Musiktrack> tracks;
 
     /**
      * Erzeuge eine MusikSammlung
@@ -17,6 +18,7 @@ public class MusikSammlung
     public MusikSammlung()
     {
         dateien = new ArrayList<String>();
+        tracks = new ArrayList<>();
     }
 
     /**

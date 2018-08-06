@@ -1,5 +1,6 @@
 import java.util.ArrayList;
 import java.util.Iterator;
+import java.util.Random;
 
 /**
  * Eine Klasse zur Verwaltung von Audiotracks.
@@ -189,4 +190,24 @@ public class MusikSammlung
         }
     }
     
+    /**
+     * Shuffle Funktion
+     */
+    public void shuffle()
+    {
+        ArrayList<Track> shuffletracks = tracks.clone();
+        
+        Random rd = new Random();
+        int index = 0;
+        boolean found = false;
+        while(found)
+        {
+            index = rd.nextInt(gibAnzahlTracks());
+            if (tracks.get(index).getAbspielFrequenz() < 1)
+            {
+                found = true;
+            }
+        }
+        spieleTrack(index);
+    }
 }
