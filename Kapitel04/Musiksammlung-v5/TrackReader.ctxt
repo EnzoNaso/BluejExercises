@@ -1,8 +1,16 @@
 #BlueJ class context
-comment0.params=
-comment0.target=TrackReader()
-comment0.text=\n\ Erzeuge\ einen\ Track-Reader,\ mit\ dem\ Tracks\ aus\ dem\ Musikbibliotheks-Ordner\ gelesen\ werden\ k\u00F6nnen.\n
-comment1.params=verz\ name
-comment1.target=boolean\ accept(java.io.File,\ java.lang.String)
-comment1.text=\n\ Akzeptiere\ nur\ Dateien\ mit\ passender\ Endung.\n\ @param\ verz\ das\ Verzeichnis,\ in\ dem\ die\ Datei\ liegt.\n\ @param\ name\ der\ Name\ der\ Datei.\n\ @return\ true,\ wenn\ der\ Namen\ die\ gew\u00FCnschte\ Endung\ hat.\n
-numComments=2
+comment0.target=TrackReader
+comment0.text=\r\n\ Eine\ Hilfsklasse\ f\u00FCr\ unsere\ Musik-Software.\ Diese\ Klasse\ kann\ Dateien\ mit\ einer\ bestimmten\r\n\ Endung\ aus\ einem\ beliebigen\ Ordner\ des\ Dateisystems\ lesen.\ Sie\ geht\ davon\ aus,\ dass\ der\ Dateiname\r\n\ den\ Interpreten\ und\ den\ Titel\ enth\u00E4lt.\r\n\ \r\n\ Die\ Dateinamen\ der\ Audiotracks\ m\u00FCssen\ daher\ einem\ vorgegebenen\ Standardformat\ folgen\:\ auf\ den\ Namen\r\n\ des\ Interpreten\ folgt,\ getrennt\ durch\ einen\ Bindestrick\ der\ Track-Titel.\ Zum\ Beispiel\:\ TheBeatles-HereComesTheSun.mp3\r\n\ \r\n\ @author\ David\ J.\ Barnes\ und\ Michael\ K\u00F6lling\r\n\ @version\ 2011.03.27\r\n
+comment1.params=
+comment1.target=TrackReader()
+comment1.text=\r\n\ Erzeuge\ einen\ Track-Reader,\ mit\ dem\ Tracks\ aus\ dem\ Musikbibliotheks-Ordner\ gelesen\ werden\ k\u00F6nnen.\r\n
+comment2.params=ordner\ suffix
+comment2.target=java.util.ArrayList\ liesTracks(java.lang.String,\ java.lang.String)
+comment2.text=\r\n\ Lies\ Musikdateien\ mit\ der\ angegebenen\ Endung\ aus\ dem\ angegebenen\ Bibliotheksordner.\r\n\ @param\ ordner\ der\ Ordner,\ in\ dem\ nach\ Dateien\ gesucht\ werden\ soll.\r\n\ @param\ suffix\ die\ Endung\ f\u00FCr\ den\ Audiotyp.\r\n
+comment3.params=verz\ name
+comment3.target=boolean\ accept(java.io.File,\ java.lang.String)
+comment3.text=\r\n\ Akzeptiere\ nur\ Dateien\ mit\ passender\ Endung.\r\n\ @param\ verz\ das\ Verzeichnis,\ in\ dem\ die\ Datei\ liegt.\r\n\ @param\ name\ der\ Name\ der\ Datei.\r\n\ @return\ true,\ wenn\ der\ Namen\ die\ gew\u00FCnschte\ Endung\ hat.\r\n
+comment4.params=datei
+comment4.target=Track\ dekodiereDetails(java.io.File)
+comment4.text=\r\n\ Versuche\ die\ Angaben\ zu\ Interpret\ und\ Titel\ aus\ dem\ Dateinamen\ zu\ extrahieren.\r\n\ Geht\ davon\ aus,\ dass\ der\ Dateiname\ folgendes\ Format\ hat\:\r\n\ \ \ \ \ interpret-titel.mp3\r\n\ @param\ datei\ die\ Track-Datei.\r\n\ @return\ ein\ Track-Objekt\ mit\ den\ entsprechenden\ Angaben.\r\n
+numComments=5

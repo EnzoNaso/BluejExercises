@@ -86,10 +86,31 @@ public class MusikSammlung
     
     public void alleDateienAusgeben()
     {
+        int position = 0;
         for(String datei : dateien)
         {
-            System.out.println(datei);
-            datei = "TEST";
+            //position++;
+            System.out.println(position++ + ": " + datei);
         }
     }
+    
+    public void bestimmteDateienAusgeben(String suchbegriff)
+    { 
+        boolean gefunden = false;
+        for (String dateiname : dateien) 
+        { 
+            if (dateiname.contains(suchbegriff)) 
+            {   
+                // Treffer. 
+                System.out.println(dateiname);
+                gefunden = true;
+            }
+        }
+        
+        if (!gefunden)
+        {
+            System.out.println(suchbegriff + " nicht gefunden.");
+        }
+    } 
+    
 }

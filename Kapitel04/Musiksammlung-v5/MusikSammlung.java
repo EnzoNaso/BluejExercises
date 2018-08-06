@@ -190,22 +190,24 @@ public class MusikSammlung
         }
     }
     
-    public void entferneAlleTracks()
+    /**
+     * Shuffle Funktion
+     */
+    public void shuffle()
     {
-        Iterator<Track> it = tracks.iterator();
-        while(it.hasNext())
-        {
-            Track track = it.next();
-            it.remove();
-        }
-    }
-    
-    public void suffle()
-    {
+        ArrayList<Track> shuffletracks = tracks.clone();
         
-        int size = tracks.size();
         Random rd = new Random();
-        spieleTrack(rd.nextInt(size));
-        
+        int index = 0;
+        boolean found = false;
+        while(found)
+        {
+            index = rd.nextInt(gibAnzahlTracks());
+            if (tracks.get(index).getAbspielFrequenz() < 1)
+            {
+                found = true;
+            }
+        }
+        spieleTrack(index);
     }
 }

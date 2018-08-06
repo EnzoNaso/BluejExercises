@@ -13,13 +13,15 @@
  */
 public class Ticketautomat 
 {
+    // Die Geldsumme, die bisher von diesem Automaten eingenommen wurde.
+    private int gesamtsumme;
     // Der Preis eines Tickets dieses Automaten.
     private int preis;
     // Der Betrag, der bisher vom Automatenbenutzer eingeworfen wurde.
     private int bisherGezahlt;
-    // Die Geldsumme, die bisher von diesem Automaten eingenommen wurde.
-    private int gesamtsumme;
-
+    
+    private int punktestand;
+    
     /**
      * Erzeuge eine Maschine, die Tickets zum angegebenen Preis
      * (in Cent) ausgibt.
@@ -40,11 +42,27 @@ public class Ticketautomat
         gesamtsumme = 0;
     }
     
+    /** * Reduziere den Preis um den gegebenen Betrag. */ 
+    public void reduzieren(int betrag) 
+    {
+        preis -= betrag;
+    }
+    
+    /** * Erhöhe den Punktestand um die angegebenen Punkte. */ 
+    public void erhoehen(int punkte) 
+    {
+        punktestand += punkte;
+    }
+
     public void leeren()
     {
         gesamtsumme = 0;
     }
     
+    public void setzePreis(int neuerPreis)
+    {
+        preis = neuerPreis;
+    }
     
     /**
      * Liefere den Preis eines Tickets dieses Automaten (in Cent).
@@ -64,7 +82,7 @@ public class Ticketautomat
     }
 
     
-    public int gibGsamtsumme()
+    public int gibGesamtsumme()
     {
         return gesamtsumme;
     }
@@ -74,7 +92,7 @@ public class Ticketautomat
      */
     public void geldEinwerfen(int betrag)
     {
-        bisherGezahlt = bisherGezahlt + betrag;
+        bisherGezahlt += betrag;
     }
 
     /**

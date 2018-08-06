@@ -1,0 +1,59 @@
+Übung 2.64
+gibName
+String
+
+Übung 2.65
+setzeKreditrahmen
+rahmen
+int
+
+Übung 2.66 + 2.67 + 2.69
+public class Person
+{
+
+	private String name;
+	private int alter;
+	private String nummer;
+	private int kreditrahmen
+
+	public person(String meinName, int meinAlter)
+	{
+		this.name = meinName;
+		this.alter = meinAlter;
+	}
+
+}
+
+
+Übung 2.68
+public Modul(String modulnummer)
+{
+	this.nummer = modulnummer;
+}
+
+Übung 2.70  
+public int gibAlter()
+{ 
+	return this.alter;
+}
+
+Übung 2.71  
+public String gibName()
+{ 
+	return this.name;
+}
+
+Übung 2.72  
+public void setzeAlter(int alter)
+{ 
+	this.alter = alter;
+}
+
+Übung 2.73
+
+private String name;
+
+public void detailsAusgeben()
+{
+	System.out.println("Der Name dieser Person ist " + this.name)
+}

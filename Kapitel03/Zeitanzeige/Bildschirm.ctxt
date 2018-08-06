@@ -1,0 +1,12 @@
+#BlueJ class context
+comment0.target=Bildschirm
+comment0.text=\r\n\ Beschreiben\ Sie\ hier\ die\ Klasse\ Bildschirm.\r\n\ \r\n\ @author\ (Ihr\ Name)\ \r\n\ @version\ (eine\ Versionsnummer\ oder\ ein\ Datum)\r\n
+comment1.params=xAufloesung\ yAufloesung
+comment1.target=Bildschirm(int,\ int)
+comment1.text=\r\n\ Konstruktor\ f\u00FCr\ Objekte\ der\ Klasse\ Bildschirm\r\n
+comment2.params=
+comment2.target=int\ anzahlBildpunkte()
+comment2.text=\r\n\ Ein\ Beispiel\ einer\ Methode\ -\ ersetzen\ Sie\ diesen\ Kommentar\ mit\ Ihrem\ eigenen\r\n\ \r\n\ @param\ \ y\ \ \ \ ein\ Beispielparameter\ f\u00FCr\ eine\ Methode\r\n\ @return\ \ \ \ \ \ \ \ die\ Summe\ aus\ x\ und\ y\r\n
+comment3.params=invertieren
+comment3.target=void\ loeschen(boolean)
+numComments=4
