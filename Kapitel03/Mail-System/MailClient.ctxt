@@ -1,14 +1,14 @@
 #BlueJ class context
 comment0.params=server\ benutzer
 comment0.target=MailClient(MailServer,\ java.lang.String)
-comment0.text=\r\n\ Erzeuge\ einen\ MailClient\ f\u00FCr\ den\ angegebenen\ Benutzer\r\n\ und\ verbinde\ ihn\ mit\ dem\ gegebenen\ Server.\r\n\ @param\ server\ der\ MailServer\ f\u00FCr\ diesen\ Client\r\n\ @param\ benutzer\ der\ Name\ des\ Benutzers\ dieses\ MailClients.\r\n
+comment0.text=\n\ Erzeuge\ einen\ MailClient\ f\u00FCr\ den\ angegebenen\ Benutzer\n\ und\ verbinde\ ihn\ mit\ dem\ gegebenen\ Server.\n\ @param\ server\ der\ MailServer\ f\u00FCr\ diesen\ Client\n\ @param\ benutzer\ der\ Name\ des\ Benutzers\ dieses\ MailClients.\n
 comment1.params=
 comment1.target=Nachricht\ gibNaechsteNachricht()
-comment1.text=\r\n\ Liefere\ die\ n\u00E4chste\ Nachricht\ (falls\ vorhanden)\r\n\ f\u00FCr\ den\ Benutzer\ dieses\ Clients.\r\n
+comment1.text=\n\ Liefere\ die\ n\u00E4chste\ Nachricht\ (falls\ vorhanden)\n\ f\u00FCr\ den\ Benutzer\ dieses\ Clients.\n
 comment2.params=
 comment2.target=void\ naechsteNachrichtAusgeben()
-comment2.text=\r\n\ Gib\ die\ n\u00E4chste\ Nachricht\ (falls\ vorhanden)\ f\u00FCr\ den\r\n\ Benutzer\ dieses\ Clients\ auf\ der\ Konsole\ aus.\r\n
+comment2.text=\n\ Gib\ die\ n\u00E4chste\ Nachricht\ (falls\ vorhanden)\ f\u00FCr\ den\n\ Benutzer\ dieses\ Clients\ auf\ der\ Konsole\ aus.\n
 comment3.params=empfaenger\ text\ betreff
 comment3.target=void\ sendeNachricht(java.lang.String,\ java.lang.String,\ java.lang.String)
-comment3.text=\r\n\ Sende\ den\ gegebenen\ Nachrichtentext\ an\ den\ angebenen\r\n\ Empf\u00E4nger\ \u00FCber\ den\ zugeordneten\ Mail-Server.\r\n\ @param\ empfaenger\ der\ gew\u00FCnschte\ Empf\u00E4nger\r\n\ @param\ text\ der\ Text\ der\ Nachricht\r\n
+comment3.text=\n\ Sende\ den\ gegebenen\ Nachrichtentext\ an\ den\ angebenen\n\ Empf\u00E4nger\ \u00FCber\ den\ zugeordneten\ Mail-Server.\n\ @param\ empfaenger\ der\ gew\u00FCnschte\ Empf\u00E4nger\n\ @param\ text\ der\ Text\ der\ Nachricht\n
 numComments=4
