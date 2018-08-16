@@ -38,6 +38,20 @@ public class Bestandsverwalter
      */
     public void aufnehmen(int nummer, int menge)
     {
+//         for(int i=0 ; i < lager.size() ; i++)
+//         {
+//             if (lager.get(i).gibNummer() == nummer)
+//             {
+//                 lager.get(i).erhoeheBestand(menge);
+//                 return;
+//             }
+//         }
+        
+        Artikel sucheArtikel = findeArtikel(nummer);
+        if(sucheArtikel != null )
+        {
+            sucheArtikel.erhoeheBestand(menge);
+        }
     }
     
     /**
@@ -49,6 +63,13 @@ public class Bestandsverwalter
      */
     public Artikel findeArtikel(int nummer)
     {
+        for(int i=0 ; i < lager.size() ; i++)
+        {
+            if (lager.get(i).gibNummer() == nummer)
+            {
+                return lager.get(i);
+            }
+        }
         return null;
     }
     
@@ -62,6 +83,21 @@ public class Bestandsverwalter
      */
     public int mengeImBestand(int nummer)
     {
+        
+//         for(int i=0 ; i < lager.size() ; i++)
+//         {
+//             if (lager.get(i).gibNummer() == nummer)
+//             {
+//                 return lager.get(i).gibBestand();
+//             }
+//         }
+//         return 0;
+
+        Artikel sucheArtikel = findeArtikel(nummer);
+        if(sucheArtikel != null )
+        {
+            return sucheArtikel.gibBestand();
+        }
         return 0;
     }
 
@@ -70,5 +106,10 @@ public class Bestandsverwalter
      */
     public void alleArtikelAnzeigen()
     {
+        for (Artikel a : lager)
+        {
+            System.out.println(a.toString());
+        }
     }
+    
 }
